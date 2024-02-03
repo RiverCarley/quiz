@@ -66,3 +66,7 @@ a {
     align-content: center;
     color: rgb(255,255,255)
     }
+    img{
+        width: 600px;
+        height: 1000px;
+    }
