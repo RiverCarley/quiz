@@ -319,41 +319,10 @@ const handleClick = (questionId, chosenAnswer) => {
 const showAnswer = () => {
     let result
     answers.forEach(answer => {
-        if (
-            chosenAnswers.includes(answer.combination[0])+
-            chosenAnswers.includes(answer.combination[1])+
-            chosenAnswers.includes(answer.combination[2])+
-            chosenAnswers.includes(answer.combination[3])+
-            chosenAnswers.includes(answer.combination[4])+
-            chosenAnswers.includes(answer.combination[5])+
-            chosenAnswers.includes(answer.combination[6])+
-            chosenAnswers.includes(answer.combination[7])+
-            chosenAnswers.includes(answer.combination[8])+
-            chosenAnswers.includes(answer.combination[9])+
-            chosenAnswers.includes(answer.combination[10])+
-            chosenAnswers.includes(answer.combination[11])+
-            chosenAnswers.includes(answer.combination[12])+
-            chosenAnswers.includes(answer.combination[13])+
-            chosenAnswers.includes(answer.combination[14])+
-            chosenAnswers.includes(answer.combination[15])+
-            chosenAnswers.includes(answer.combination[16])+
-            chosenAnswers.includes(answer.combination[17])+
-            chosenAnswers.includes(answer.combination[18])+
-            chosenAnswers.includes(answer.combination[19])+
-            chosenAnswers.includes(answer.combination[20])+
-            chosenAnswers.includes(answer.combination[21])+
-            chosenAnswers.includes(answer.combination[22])+
-            chosenAnswers.includes(answer.combination[23])+
-            chosenAnswers.includes(answer.combination[24])+
-            chosenAnswers.includes(answer.combination[25])+
-            chosenAnswers.includes(answer.combination[26])
-        ) {
-            result = answer
-            return
-        } //else if (!result) {
-            //first answer object is default
-         //   result = answers[0]
-       // }
+        if (answer.combination.every(option => chosenAnswers.includes(option))) {
+            result = answer;
+            return;
+        }
     })
 
     const answerBlock = document.createElement('div')
