@@ -34,6 +34,7 @@ h1 {
     align-items: center; /* Add this line for vertical centering */
 }
 h3{
+    text-align: center;
     color: rgb(144,144,144);
     font-size: 20px;
 }
