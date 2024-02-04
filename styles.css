@@ -1,0 +1,89 @@
+
+.reset {
+    all: unset;
+  }
+  #container {
+    border: 30px solid rgb(49, 44, 44); /* You can change 'red' to your desired color */
+   
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(30, 30, 30);
+}
+
+section {
+    width: 600px;
+}
+
+h1 {
+    font-size: 42px;
+    text-align: center;
+    width: 600px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    color: rgb(144,144,144);
+    margin-bottom: 0; /* Add this line to remove the margin-bottom */
+    margin-top: 0; /* Add this line to remove the margin-bottom */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Add this line for vertical centering */
+}
+.title-block {
+    width: 600px;
+    height: 60px;
+    font-size: 15px;
+    background-color: rgb(118, 117, 117);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: rgb(0,0,0)
+}
+.answer-options {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(63, 63, 63);
+    color: rgb(144,144,144);
+    justify-content: space-between;
+}
+
+.answer-block {
+    width: 186px;
+    height: 50px;
+    text-align: center;
+    overflow: hidden;
+}
+.answer-block a {
+    color: rgb(77, 74, 74);
+}
+
+.result-block {
+    width: 600px;
+    height: 50px;
+    display: flex;
+     font-size: 15px;
+    justify-content: center;
+  
+    background-color: rgb(118, 117, 117);
+    color: rgb(0,0,0)
+
+
+}
+a {
+    width: 600px;
+    height: 40px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(63, 63, 63);
+    color: rgb(144,144,144);
+    margin: 0; /* Set margin to zero */
+    padding: 0; /* Set padding to zero */
+    }
+    img{
+        width: 600px;
+        height: 1000px;
+        margin: 0; /* Set margin to zero */
+        padding: 0; /* Set padding to zero */
+    }
