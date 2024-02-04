@@ -1,9 +1,11 @@
 
-
+.reset {
+    all: unset;
+  }
 body {
     display: flex;
     justify-content: center;
-    background-color: grey;
+    background-color: rgb(30, 30, 30);
 }
 
 section {
@@ -13,25 +15,30 @@ section {
 h1 {
     font-size: 42px;
     text-align: center;
+    width: 600px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    color: rgb(144,144,144);
+    margin-bottom: 0; /* Add this line to remove the margin-bottom */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Add this line for vertical centering */
 }
-
-
-
 .title-block {
     width: 600px;
-    height: 40px;
-    font-size: 10px;
-    background-color: rgb(86, 85, 97);
+    height: 60px;
+    font-size: 15px;
+    background-color: rgb(118, 117, 117);
     display: flex;
     justify-content: center;
     align-content: center;
-    color: rgb(255,255,255)
+    color: rgb(0,0,0)
 }
-
 .answer-options {
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(115, 114, 122);
+    background-color: rgb(63, 63, 63);
+    color: rgb(144,144,144);
     justify-content: space-between;
 }
 
@@ -49,10 +56,11 @@ h1 {
     width: 600px;
     height: 50px;
     display: flex;
+     font-size: 15px;
     justify-content: center;
   
-    background-color: rgb(75, 65, 70);
-    color: rgb(255,255,255)
+    background-color: rgb(118, 117, 117);
+    color: rgb(0,0,0)
 
 
 }
@@ -60,13 +68,17 @@ a {
     width: 600px;
     height: 40px;
     font-size: 30px;
-    background-color: rgb(86, 85, 97);
     display: flex;
     justify-content: center;
     align-content: center;
-    color: rgb(255,255,255)
+    background-color: rgb(63, 63, 63);
+    color: rgb(144,144,144);
+    margin: 0; /* Set margin to zero */
+    padding: 0; /* Set padding to zero */
     }
     img{
         width: 600px;
         height: 1000px;
+        margin: 0; /* Set margin to zero */
+        padding: 0; /* Set padding to zero */
     }

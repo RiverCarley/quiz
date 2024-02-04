@@ -64,7 +64,7 @@ const questions = [
 const answers = [
     {
         combination: ["Sparkling Water", "Sea Monkeys", "1965 Shelby Cobra"],
-        text: "1",
+        text: "Fear and Loathing in Las Vegas by Hunter S. Thompson",
         textb: "1",
      
     },
@@ -184,7 +184,7 @@ const answers = [
 
     },
     {  
-        combination: ["Psilocybin Tea", "RaDogbbit", "Tesla Model 3"],
+        combination: ["Psilocybin Tea", "Dog", "Tesla Model 3"],
         text: "18",
         textb: "18",
     
