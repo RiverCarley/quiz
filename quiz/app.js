@@ -349,7 +349,7 @@ const disableQuestionBlock = (questionId, chosenAnswer) => {
 
     Array.from(currentQuestionBlock.children).forEach(block => {
         if (block.innerText !== chosenAnswer) {
-            block.style.opacity = "50%"
+            block.style.opacity = "10%"
         }
     })
 }
