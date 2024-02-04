@@ -1,4 +1,11 @@
 
+#container {
+    border: 30px solid rgb(49, 44, 44); /* You can change 'red' to your desired color */
+   
+}
+section {
+    width: 600px;
+}
 
 body {
     height: 100%;
