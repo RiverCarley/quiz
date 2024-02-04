@@ -1,10 +1,9 @@
-
 #container {
-    border: 30px solid rgb(49, 44, 44); /* You can change 'red' to your desired color */
-   
+    border: 15px solid rgb(49, 44, 44);
 }
+
 section {
-    width: 600px;
+    width: 100%;
 }
 
 body {
@@ -14,52 +13,58 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
     background-color: rgb(30, 30, 30);
-  
 }
-
 
 h1 {
-    font-size: 42px;
+    font-size: 28px;
     text-align: center;
-    width: 600px;
-    height: 100px;
+    width: 100%;
+    height: auto;
     background-color: rgb(63, 63, 63);
-    color: rgb(144,144,144);
-    margin-bottom: 0; /* Add this line to remove the margin-bottom */
-    margin-top: 0; /* Add this line to remove the margin-bottom */
-    display: flex;
-    justify-content: center;
-    align-items: center; /* Add this line for vertical centering */
-}
-h3{
-    text-align: center;
-    color: rgb(144,144,144);
-    font-size: 20px;
-}
-p{
-    max-width: 600px; /* You can adjust the value to your desired maximum width */
-    margin: 0 auto; 
-    font-size: 17px;
-    color: rgb(144,144,144);
+    color: rgb(144, 144, 144);
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-
-.centered-text {
+h3 {
     text-align: center;
+    color: rgb(144, 144, 144);
+    font-size: 18px;
 }
+
+p {
+    max-width: 100%;
+    margin: 0 20px;
+    font-size: 14px;
+    color: rgb(144, 144, 144);
+}
+
 a {
-    width: 600px;
+    width: 100%;
     height: 40px;
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     background-color: rgb(63, 63, 63);
-    color: rgb(144,144,144);
-    margin: 0; /* Set margin to zero */
-    padding: 0; /* Set padding to zero */
+    color: rgb(144, 144, 144);
+    margin: 10px 0;
+    text-decoration: none;
+}
 
+/* Media query for screens with a maximum width of 600px (typical phone screen width) */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px;
     }
-   
+
+    p {
+        font-size: 14px;
+    }
+
+    a {
+        font-size: 18px;
+    }
+}
