@@ -66,6 +66,8 @@ const answers = [
         combination: ["Sparkling Water", "Sea Monkeys", "1965 Shelby Cobra"],
         text: "Fear and Loathing in Las Vegas by Hunter S. Thompson",
         textb: "1",
+        texty: "https://www.goodreads.com/book/show/7745.Fear_and_Loathing_in_Las_Vegas",
+        textz: "https://www.amazon.ca/Fear-Loathing-Las-Vegas-American-ebook/dp/B003WUYQG4/ref=sr_1_1?crid=2VAO23V81SF1J&keywords=fear+and+loathing+in+las+vegas+book&qid=1707075450&sprefix=fear+and+loa%2Caps%2C103&sr=8-1",
      
     },
     {
@@ -332,12 +334,20 @@ const showAnswer = () => {
     function ReplaceImage(y){
         document.getElementById("x").src=y
     }
+    function ReplaceGRLink(yy){
+        document.getElementById("y").href=yy
+    }
+    function ReplaceAZLink(j){
+        document.getElementById("z").href=j
+    }
     
 
     answerBlock.append(answerTitle)
 
     answerDisplay.append(answerBlock)
     ReplaceImage("./images/"+result.textb+".jpg");
+    ReplaceGRLink(""+result.texty+"");
+    ReplaceAZLink(""+result.textz+"");
     const allAnswerBlocks = document.querySelectorAll('.answer-block')
     Array.from(allAnswerBlocks).forEach(answerBlock => answerBlock.replaceWith(answerBlock.cloneNode(true)))
   
