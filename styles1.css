@@ -1,3 +1,6 @@
+.reset {
+    all: unset;
+  }
 #container {
     border: 15px solid rgb(49, 44, 44);
 }

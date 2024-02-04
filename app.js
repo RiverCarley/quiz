@@ -1,5 +1,7 @@
 const questionDisplay = document.querySelector('#questions')
 const answerDisplay = document.querySelector('#answer')
+var  shouldShowVideo = true;
+
 
 const questions = [
     {
@@ -313,11 +315,31 @@ const handleClick = (questionId, chosenAnswer) => {
     location.href = '#' + lowestQuestionId
 
     if (!unansweredQuestions.length) {
+        shouldShowVideo = false; // Update shouldShowVideo to false
+       
+
         location.href = '#answer'
         showAnswer()
+        updateElementsVisibility();
+    }
+  
+}
+var shouldShowVideo = true;
+
+function updateElementsVisibility() {
+    var videoElement = document.getElementById('bookVideo');
+    var imageElement = document.getElementById('x');
+
+    if (!shouldShowVideo) {
+        // If shouldShowVideo is false, hide the video element
+        videoElement.style.display = 'none';
+        imageElement.style.display = 'block';
+    } else {
+        // If shouldShowVideo is true, hide the image element
+        imageElement.style.display = 'none';
+        videoElement.style.display = 'block'; // Show the video element
     }
 }
-
 const showAnswer = () => {
     let result
     answers.forEach(answer => {
@@ -354,18 +376,39 @@ const showAnswer = () => {
 
 }
 
-const disableQuestionBlock = (questionId, chosenAnswer) => {
+
+function disableQuestionBlock(questionId, chosenAnswer) {
     const currentQuestionBlock = document.getElementById(questionId + "-questions")
 
     Array.from(currentQuestionBlock.children).forEach(block => {
         if (block.innerText !== chosenAnswer) {
             block.style.opacity = "10%"
+          
+
         }
     })
+}
+var videoElement = document.getElementById('bookVideo');
+var imageElement = document.getElementById('x');
+
+if (!shouldShowVideo) {
+    // If shouldShowVideo is false, hide the video element
+    videoElement.style.display = 'none';
+    imageElement.style.display = 'block'; 
+
+
+} else {
+    // If shouldShowVideo is true, hide the image element
+    imageElement.style.display = 'none';
 }
 
 
 
+
+
+
+
+updateElementsVisibility();
 
 
 
