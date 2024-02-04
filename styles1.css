@@ -17,7 +17,12 @@ body {
     align-items: center;
     background-color: rgb(30, 30, 30);
 }
-
+.centered-text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 h1 {
     font-size: 28px;
     text-align: center;
