@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Test</title>
+</head>
+<body>
+    <audio id="myAudio" controls loop muted>
+        <source src="./images/lofiiMusic.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <script>
+        // Add a click event listener to the document
+        document.addEventListener('click', function() {
+            var audio = document.getElementById('myAudio');
+            
+            // Check if the audio is muted, and unmute it
+            if (audio.muted) {
+                audio.muted = false;
+            }
+    
+            // Play the audio
+            audio.play();
+            
+            // Remove the click event listener after the first click
+            document.removeEventListener('click', arguments.callee);
+        });
+    </script>
+</body>
+</html>
