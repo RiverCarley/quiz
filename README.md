@@ -1,2 +1,1 @@
-# buzzfeed-clone-javascript
-A Buzzfeed clone built using vanilla JavaScript
+Music by <a href="https://pixabay.com/users/soulprodmusic-30064790/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=138250">Oleg Fedak</a> from <a href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=138250">Pixabay</a>
