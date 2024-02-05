@@ -263,40 +263,56 @@ const answers = [
 
 const unansweredQuestions = []
 const chosenAnswers = []
-
 const populateQuestions = () => {
     questions.forEach(question => {
-        const titleBlock = document.createElement('div')
-        titleBlock.id = question.id
-        titleBlock.classList.add('title-block')
-        const titleHeading = document.createElement('h2')
-        titleHeading.textContent = question.text
-        titleBlock.append(titleHeading)
-        questionDisplay.append(titleBlock)
+        const titleBlock = document.createElement('div');
+        titleBlock.id = question.id;
+        titleBlock.classList.add('title-block');
+        const titleHeading = document.createElement('h2');
+        titleHeading.textContent = question.text;
+        titleBlock.append(titleHeading);
 
-        const answersBlock = document.createElement('div')
-        answersBlock.id = question.id + "-questions"
-        answersBlock.classList.add('answer-options')
+        // Add event listeners for mouseover and mouseout
+        titleBlock.addEventListener('mouseover', () => highlightBlocks(question.id, true));
+        titleBlock.addEventListener('mouseout', () => highlightBlocks(question.id, false));
 
-        unansweredQuestions.push(question.id)
+        questionDisplay.append(titleBlock);
+
+        const answersBlock = document.createElement('div');
+        answersBlock.id = question.id + "-questions";
+        answersBlock.classList.add('answer-options');
+
+        unansweredQuestions.push(question.id);
 
         question.answers.forEach(answer => {
-            const answerBlock = document.createElement('div')
-            answerBlock.classList.add('answer-block')
-            answerBlock.addEventListener('click', () => handleClick(question.id, answer.text))
+            const answerBlock = document.createElement('div');
+            answerBlock.classList.add('answer-block');
+            answerBlock.addEventListener('mouseover', () => highlightBlocks(question.id, true));
+            answerBlock.addEventListener('mouseout', () => highlightBlocks(question.id, false));
+            answerBlock.addEventListener('click', () => handleClick(question.id, answer.text));
 
-            const answerTitle = document.createElement('h3')
-            answerTitle.textContent = answer.text
-          
-            answerBlock.append( answerTitle)
+            const answerTitle = document.createElement('h3');
+            answerTitle.textContent = answer.text;
 
-            answersBlock.append(answerBlock)
-        })
+            answerBlock.append(answerTitle);
 
-        questionDisplay.append(answersBlock)
+            answersBlock.append(answerBlock);
+        });
 
-    })
+        questionDisplay.append(answersBlock);
+    });
+};
+
+function highlightBlocks(questionId, isHighlighted) {
+    const titleBlock = document.getElementById(questionId);
+    titleBlock.classList.toggle('highlighted', isHighlighted);
+
+    const answerBlocks = document.getElementById(questionId + "-questions").getElementsByClassName('answer-block');
+    Array.from(answerBlocks).forEach(answerBlock => {
+        answerBlock.classList.toggle('highlighted', isHighlighted);
+    });
 }
+
 populateQuestions()
 
 const handleClick = (questionId, chosenAnswer) => {
