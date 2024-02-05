@@ -32,9 +32,9 @@
         <source src="./images/lofiiMusic.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
-    
-    <audio id="myAudio" loop muted>
-        <source src="./images/lofiiMusic.mp3" type="audio/mpeg">
+
+ <audio id="myAudio"  muted>
+        <source src="./images/click.wav" type="audio/wav">
         Your browser does not support the audio element.
     </audio>
     
@@ -52,9 +52,10 @@
             audio.play();
             
             // Remove the click event listener after the first click
-            document.removeEventListener('click', arguments.callee);
+           
         });
     </script>
+
     <script src="app.js"></script>
 </body>
 </html>
