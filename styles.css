@@ -84,7 +84,6 @@ a {
 
     }
     img{
-        border: 10px solid rgb(80, 73, 73);
         width: 600px;
         height: 1000px;
         margin: 0; /* Set margin to zero */
@@ -92,7 +91,7 @@ a {
     }
    
     .answer-block:hover {
-        background-color: #e6e6e6;
+        background-color: #686666;
         cursor: pointer;
     }
     
