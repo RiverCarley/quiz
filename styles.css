@@ -8,12 +8,12 @@
 body {
     display: flex;
     justify-content: center;
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(63, 63, 63);
 }
 
 section {
     width: 100%; /* Change to a percentage for responsiveness */
-    max-width: 2000px; /* Add a max-width for larger screens */
+    max-width: 4000px; /* Add a max-width for larger screens */
     margin: 0 auto; /* Center the section */
 }
 
@@ -38,7 +38,7 @@ h4 {
 
 .title-block {
     width: 100%; /* Change to a percentage for responsiveness */
-    max-width: 2000px; /* Add a max-width for larger screens */
+    max-width: 4000px; /* Add a max-width for larger screens */
     height: 15vh; /* Using viewport units for height */
     font-size: 2vw; /* Using viewport units for font-size */
     background-color: rgb(118, 117, 117);
@@ -50,7 +50,7 @@ h4 {
 
 .answer-options {
     width: 100%; /* Change to a percentage for responsiveness */
-    max-width: 2000px; /* Add a max-width for larger screens */
+    max-width: 4000px; /* Add a max-width for larger screens */
     display: flex;
     flex-wrap: wrap;
     background-color: rgb(63, 63, 63);
@@ -78,7 +78,7 @@ h4 {
 
 .result-block {
     width: 100%; /* Change to a percentage for responsiveness */
-    max-width: 2000px; /* Add a max-width for larger screens */
+    max-width: 4000px; /* Add a max-width for larger screens */
     height: 5vh; /* Using viewport units for height */
     display: flex;
     font-size: 1.5vw; /* Using viewport units for font-size */
@@ -89,7 +89,7 @@ h4 {
 
 a {
     width: 100%; /* Change to a percentage for responsiveness */
-    max-width: 2000px; /* Add a max-width for larger screens */
+    max-width: 4000px; /* Add a max-width for larger screens */
     height: 5vh; /* Using viewport units for height */
     font-size: 3vw; /* Using viewport units for font-size */
     display: flex;
