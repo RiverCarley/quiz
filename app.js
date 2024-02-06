@@ -70,6 +70,10 @@ const answers = [
         textb: "13",
         texty: "https://www.goodreads.com/book/show/35031085-frankenstein?ref=nav_sb_noss_l_6",
         textz: "https://www.amazon.ca/Frankenstein-1818-Text-Mary-Shelley/dp/0143131842/ref=sr_1_6?crid=ZESCD20SUFS6&keywords=frankenstein+mary+shelley&qid=1707152295&sprefix=franke%2Caps%2C122&sr=8-6",
+        texts:"test text",
+        page:"100",
+        dis:"info",
+        tit:"Frankenstein",
      
     },
     {
@@ -295,6 +299,7 @@ const answers = [
 const unansweredQuestions = []
 const chosenAnswers = []
 const populateQuestions = () => {
+    
     questions.forEach(question => {
         const titleBlock = document.createElement('div');
         titleBlock.id = question.id;
@@ -409,6 +414,20 @@ const showAnswer = () => {
     function ReplaceAZLink(j){
         document.getElementById("z").href=j
     }
+    function ReplaceText(i){
+        document.getElementById("i").innerText=i
+       
+    }
+    function ReplacePage(p){
+    document.getElementById("p").innerText=p
+    }
+    function Replacedis(d){
+        document.getElementById("d").innerText=d
+        }
+        function Replacetit(t){
+            document.getElementById("t").innerText=t
+            }
+        
     
 
     answerBlock.append(answerTitle)
@@ -417,6 +436,10 @@ const showAnswer = () => {
     ReplaceImage("./images/"+result.textb+".jpg");
     ReplaceGRLink(""+result.texty+"");
     ReplaceAZLink(""+result.textz+"");
+    ReplaceText(""+result.texts+"");
+    ReplacePage(""+result.page+"");
+    Replacedis(""+result.dis+"");
+    Replacetit(""+result.tit+"");
     const allAnswerBlocks = document.querySelectorAll('.answer-block')
     Array.from(allAnswerBlocks).forEach(answerBlock => answerBlock.replaceWith(answerBlock.cloneNode(true)))
   

@@ -13,14 +13,14 @@ body {
 }
 
 section {
-    width: 600px;
+    width: 1000px;
 }
 
 h1 {
-    font-size: 42px;
+    font-size: 100px;
     text-align: center;
-    width: 600px;
-    height: 100px;
+    width: 1000px;
+    height: 250px;
     background-color: rgb(63, 63, 63);
     color: rgb(144,144,144);
     margin-bottom: 0; /* Add this line to remove the margin-bottom */
@@ -28,16 +28,25 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center; /* Add this line for vertical centering */
+    font-variant: small-caps; /* Add this line to apply small caps */
+    letter-spacing: 15px;
+
+}
+h4{
+    font-size: 40px;
+    margin-bottom: -20px;
 }
 .title-block {
-    width: 600px;
-    height: 60px;
-    font-size: 15px;
+    width: 1000px;
+    height: 150px;
+    font-size: 45px;
     background-color: rgb(118, 117, 117);
     display: flex;
     justify-content: center;
     align-content: center;
-    color: rgb(0,0,0)
+    color: rgb(0,0,0);
+    align-items: center; /* Add this line for vertical centering */
+
 }
 .answer-options {
     display: flex;
@@ -45,20 +54,30 @@ h1 {
     background-color: rgb(63, 63, 63);
     color: rgb(144,144,144);
     justify-content: space-between;
-}
+    align-items: center; /* Add this line for vertical centering */
+    
 
+}
 .answer-block {
-    width: 180px;
-    height: 50px;
+    width: 300px;
+    height: 150px;
+    font-size: 25px;
     text-align: center;
     overflow: hidden;
+    justify-content: center;
+    border-radius: 30px; /* Adjust the radius value as per your preference */
+    border: 5px solid #000; /* Add border for better visibility */
+    display: flex; /* Add this line to make align-items work */
+    align-items: center; /* Add this line for vertical centering */
+    
 }
+
 .answer-block a {
     color: rgb(77, 74, 74);
 }
 
 .result-block {
-    width: 600px;
+    width: 1000px;
     height: 50px;
     display: flex;
      font-size: 15px;
@@ -70,7 +89,7 @@ h1 {
 
 }
 a {
-    width: 600px;
+    width: 1000px;
     height: 40px;
     font-size: 30px;
     display: flex;
@@ -93,5 +112,26 @@ a {
         background-color: #686666;
         cursor: pointer;
     }
+    #container {
+        display: flex;
+        justify-content: center;
+    }
     
+    #video-and-text {
+        display: flex;
+       
+    }
+    
+    #bookVideo {
+        width: 600px;
+        height: 1000px;
+    }
+    
+    #text-container {
+        margin-left: 20px; /* Adjust the margin as needed */
+        color: rgb(144,144,144);
+    }
+    p{
+        font-size: 25px;
+    }
     
