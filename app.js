@@ -637,7 +637,7 @@ const showAnswer = () => {
 
     answerBlock.append(answerTitle)
 
-    answerDisplay.append(answerBlock)
+    //answerDisplay.append(answerBlock)
     ReplaceImage("./images/"+result.textb+".jpg");
     ReplaceGRLink(""+result.texty+"");
     ReplaceAZLink(""+result.textz+"");
