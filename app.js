@@ -597,7 +597,7 @@ const showAnswer = () => {
     const answerBlock = document.createElement('div')
     answerBlock.classList.add('result-block')
     const answerTitle = document.createElement('h3')
-    answerTitle.textContent = result.text
+    //answerTitle.textContent = result.text
     function ReplaceImage(y){
         document.getElementById("x").src=y
     }
