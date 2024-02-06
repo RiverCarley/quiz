@@ -123,13 +123,14 @@ a {
     }
     
     #bookVideo {
-        width: 600px;
+        width: 1000px;
         height: 1000px;
     }
     
     #text-container {
         margin-left: 20px; /* Adjust the margin as needed */
         color: rgb(144,144,144);
+        background-color: rgb(63, 63, 63);
     }
     p{
         font-size: 25px;
