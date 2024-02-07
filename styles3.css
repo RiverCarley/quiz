@@ -30,7 +30,7 @@ body {
 }
 
 h1 {
-    font-size: 4vw; /* Using viewport units for font size */
+    font-size: 6vw; /* Using viewport units for font size */
     text-align: center;
     width: 100%;
     background-color: rgb(234, 235, 225);
@@ -41,7 +41,7 @@ h1 {
 }
 
 h3 {
-    font-size: 2vw; /* Using viewport units for font size */
+    font-size: 3vw; /* Using viewport units for font size */
     text-align: center;
     color: rgb(0, 0, 0);
 }
