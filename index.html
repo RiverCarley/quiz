@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Book Suggester</title>
-    <link id="stylesheet" rel="stylesheet" href="styles.css">
+    <link id="stylesheet" rel="stylesheet" href="styles2.css">
     <style>
         /* Additional styles for the button */
         button {
@@ -57,15 +57,15 @@
                 <a id="z" href="https://www.amazon.ca/" target="_blank">Amazon</a>
             </div>
             <a href="about.html">About</a>
-            <button onclick="changeStyleSheet()">Toggel Dark and Light Mode</button>
+            <button onclick="changeStyleSheet()">Toggle Dark and Light Mode</button>
 
             <script>
                 function changeStyleSheet() {
                     var stylesheet = document.getElementById('stylesheet');
-                    if (stylesheet.getAttribute('href') === 'styles.css') {
-                        stylesheet.setAttribute('href', 'styles2.css');
-                    } else {
+                    if (stylesheet.getAttribute('href') === 'styles2.css') {
                         stylesheet.setAttribute('href', 'styles.css');
+                    } else {
+                        stylesheet.setAttribute('href', 'styles2.css');
                     }
                 }
             </script>
