@@ -18,7 +18,7 @@ section {
 }
 
 h1 {
-    font-size: 12vw; /* Using viewport units for font-size */
+    font-size: 17vw; /* Using viewport units for font-size */
     text-align: center;
     height: 50vw; /* Using viewport units for height */
     background-color: rgb(234, 235, 225);
