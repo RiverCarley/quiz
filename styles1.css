@@ -14,12 +14,11 @@ section {
 }
 
 body {
-    height: 100vh; /* Set body height to 100% of viewport height */
+    height: 100vw; /* Set body height to 100% of viewport height */
     margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+ 
     background-color: rgb(30, 30, 30);
 }
 
@@ -58,14 +57,14 @@ p {
 a {
     width: 100%; /* Set width to 90% of the parent container */
     max-width: 4000px; /* Set a maximum width for larger screens */
-    height: 5vh; /* Using viewport units for height */
+    height: 5vw; /* Using viewport units for height */
     font-size: 2vw; /* Using viewport units for font size */
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(63, 63, 63);
     color: rgb(144, 144, 144);
-    margin: 2vh 0; /* Using viewport units for margin */
+    margin: 2vw 0; /* Using viewport units for margin */
     text-decoration: none;
 }
 button{
