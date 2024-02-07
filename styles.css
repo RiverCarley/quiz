@@ -27,13 +27,14 @@ h1 {
     justify-content: center;
     align-items: center;
     font-variant: small-caps;
-    letter-spacing: 2vw; /* Using viewport units for letter-spacing */
+    letter-spacing: 1vw; /* Using viewport units for letter-spacing */
     margin: 0; /* Remove margin */
 }
 
 h4 {
     font-size: 3vw; /* Using viewport units for font-size */
     margin: 0;
+    padding-left: 0.5vw;
 }
 
 .title-block {
@@ -138,6 +139,7 @@ img {
 
 p {
     font-size: 1vw; /* Using viewport units for font-size */
+    padding-left: 0.75vw;
 }
 h5 {
     padding-left: 1vw;
