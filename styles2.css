@@ -18,17 +18,22 @@ section {
 }
 
 h1 {
-    font-size: 4vw; /* Using viewport units for font-size */
+    font-size: 10vw; /* Using viewport units for font-size */
     text-align: center;
-    height: 20vh; /* Using viewport units for height */
+    height: 30vh; /* Using viewport units for height */
     background-color: rgb(234, 235, 225);
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-variant: small-caps;
-    letter-spacing: 1vw; /* Using viewport units for letter-spacing */
+   
+   
     margin: 0; /* Remove margin */
+
+
+    font-family: "sabbath-black", serif;
+font-weight: 400;
+font-style: normal;
 }
 
 h4 {
