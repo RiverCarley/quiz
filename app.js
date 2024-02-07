@@ -582,7 +582,9 @@ function updateElementsVisibility() {
     } else {
         // If shouldShowVideo is true, hide the image element
         imageElement.style.display = 'none';
-        videoElement.style.display = 'block'; // Show the video element
+        //videoElement.style.display = 'block'; // Show the video element
+        videoElement.style.display = 'none'; // dont show the video element
+
     }
 }
 const showAnswer = () => {
