@@ -26,11 +26,11 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-variant: small-caps;
+    /*font-variant: small-caps;
     letter-spacing: 1vw; /* Using viewport units for letter-spacing */
     margin: 0; /* Remove margin */
 
-    
+
     font-family: "sabbath-black", serif;
 font-weight: 800;
 font-style: normal;
