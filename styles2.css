@@ -50,7 +50,7 @@ h4 {
     width: 100%; /* Change to a percentage for responsiveness */
     max-width: 4000px; /* Add a max-width for larger screens */
     height: 15vh; /* Using viewport units for height */
-    font-size: 2.5vw; /* Using viewport units for font-size */
+    font-size: 4vw; /* Using viewport units for font-size */
     background-color: rgb(255, 253, 253);
     display: flex;
     justify-content: center;
