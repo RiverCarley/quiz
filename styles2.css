@@ -161,7 +161,7 @@ img {
 
 p {
     font-size: 1vw; /* Using viewport units for font-size */
-    padding-left: 0.75vw;
+    padding-left: 1vw;
     font-family: "vendetta", serif;
     font-weight: 500;
     font-style: normal;
