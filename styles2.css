@@ -79,7 +79,7 @@ h4 {
 .answer-block {
     width: 25%; /* Change to a percentage for responsiveness */
     height: 15vw; /* Using viewport units for height */
-    font-size: 2vw; /* Using viewport units for font-size */
+    font-size: 4vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
     border-radius: 3vw; /* Using viewport units for border-radius */
