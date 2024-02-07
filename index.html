@@ -3,7 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Book Suggester</title>
-    <link rel="stylesheet" href="styles.css">
+    <link id="stylesheet" rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styles for the button */
+        button {
+            font-size: 20px; /* Adjust the font size */
+            padding: 10px 20px; /* Adjust the padding */
+            position: relative; /* Change the position */
+            top: 20px; /* Adjust the distance from the top */
+            left: 50%; /* Center horizontally */
+            transform: translateX(-50%); /* Offset half of the button's width */
+            background-color: #000000; /* Green background color */
+            color: white; /* Text color */
+            border: none; /* Remove border */
+            border-radius: 5px; /* Add border radius */
+            cursor: pointer; /* Add pointer cursor */
+        }
+
+        button:hover {
+            background-color: #45a049; /* Darker green color on hover */
+        }
+    </style>
 </head>
 <body>
     <div id="container">
@@ -37,6 +57,18 @@
                 <a id="z" href="https://www.amazon.ca/" target="_blank">Amazon</a>
             </div>
             <a href="about.html">About</a>
+            <button onclick="changeStyleSheet()">Switch Stylesheet</button>
+
+            <script>
+                function changeStyleSheet() {
+                    var stylesheet = document.getElementById('stylesheet');
+                    if (stylesheet.getAttribute('href') === 'styles.css') {
+                        stylesheet.setAttribute('href', 'styles2.css');
+                    } else {
+                        stylesheet.setAttribute('href', 'styles.css');
+                    }
+                }
+            </script>
         </section>
     </div>
  <!--- <audio autoplay loop>
@@ -66,7 +98,8 @@
            
         });
     </script>
-
+  
     <script src="app.js"></script>
+   
 </body>
 </html>
