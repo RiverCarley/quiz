@@ -52,9 +52,7 @@ p {
     font-size: 1.4vw; /* Using viewport units for font size */
     color: rgb(144, 144, 144);
 }
-h5 {
-    font-size: 2vw; /* Using viewport units for font-size */
-}
+
 
 a {
     width: 100%; /* Set width to 90% of the parent container */
