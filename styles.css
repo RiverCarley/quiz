@@ -18,11 +18,11 @@ section {
 }
 
 h1 {
-    font-size: 4vw; /* Using viewport units for font-size */
+    font-size: 10vw; /* Using viewport units for font-size */
     text-align: center;
-    height: 20vh; /* Using viewport units for height */
-    background-color: rgb(63, 63, 63);
-    color: rgb(144, 144, 144);
+    height: 50vh; /* Using viewport units for height */
+    background-color: rgb(234, 235, 225);
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
