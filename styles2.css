@@ -142,10 +142,9 @@ p {
     padding-left: 0.75vw;
 }
 h5 {
-    padding-left: 1vw;
     margin-top: -0.3vw;
     margin-bottom: -0.3vw;
-    font-size: 1.5vw; /* Using viewport units for font-size */
+    font-size: 2.8vw; /* Using viewport units for font-size */
 }
 button{
     display: flex;
