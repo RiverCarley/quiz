@@ -29,6 +29,11 @@ h1 {
     font-variant: small-caps;
     letter-spacing: 1vw; /* Using viewport units for letter-spacing */
     margin: 0; /* Remove margin */
+
+    
+    font-family: "sabbath-black", serif;
+font-weight: 800;
+font-style: normal;
 }
 
 h4 {
