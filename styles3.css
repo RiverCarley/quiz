@@ -2,7 +2,7 @@
     all: unset;
 }
 #container {
-    border: 3vw solid rgb(49, 44, 44); /* Using viewport units for border */
+        border: 3vw solid rgb(207, 197, 168); 
 }
 
 section {
@@ -20,7 +20,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(255, 253, 253);
 }
 
 .centered-text {
@@ -34,8 +34,8 @@ h1 {
     font-size: 4vw; /* Using viewport units for font size */
     text-align: center;
     width: 100%;
-    background-color: rgb(63, 63, 63);
-    color: rgb(144, 144, 144);
+    background-color: rgb(234, 235, 225);
+    color: rgb(0, 0, 0);
     margin: 0;
     padding: 2vw; /* Using viewport units for padding */
     box-sizing: border-box; /* Include padding and border in the width */
@@ -44,14 +44,14 @@ h1 {
 h3 {
     font-size: 2vw; /* Using viewport units for font size */
     text-align: center;
-    color: rgb(144, 144, 144);
+    color: rgb(0, 0, 0);
 }
 
 p {
     max-width: 100%;
     margin: 0 2vw; /* Using viewport units for margin */
     font-size: 1.4vw; /* Using viewport units for font size */
-    color: rgb(144, 144, 144);
+    color: rgb(0, 0, 0);
 }
 
 
@@ -63,8 +63,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(63, 63, 63);
-    color: rgb(144, 144, 144);
+    background-color: rgb(234, 235, 225);
+    color: rgb(0, 0, 0);
     margin: 2vh 0; /* Using viewport units for margin */
     text-decoration: none;
 }
