@@ -72,6 +72,8 @@ h4 {
     justify-content: center;
     margin-top: 2vh;
     margin-bottom: 5vh;
+    margin-left: 1vh;
+    margin-right:1vh;
 }
 
 .answer-block a {
