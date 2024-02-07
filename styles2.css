@@ -66,7 +66,7 @@ h4 {
     text-align: center;
     overflow: hidden;
     border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #000; /* Using viewport units for border */
+    border: 1vw solid #ffffff; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -110,7 +110,7 @@ img {
 }
 
 .answer-block:hover {
-    background-color: #686666;
+    background-color: #ffffff;
     cursor: pointer;
 }
 
