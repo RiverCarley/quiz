@@ -599,6 +599,7 @@ const showAnswer = () => {
     const answerBlock = document.createElement('div')
     answerBlock.classList.add('result-block')
     const answerTitle = document.createElement('h3')
+    
    // answerTitle.textContent = result.text
     function ReplaceImage(y){
         document.getElementById("x").src=y
@@ -651,6 +652,7 @@ const showAnswer = () => {
     ReplacePagei(""+result.page1+"");
     Replacedisi(""+result.dis1+"");
     Replacetiti(""+result.tit1+"");
+    
     const allAnswerBlocks = document.querySelectorAll('.answer-block')
     Array.from(allAnswerBlocks).forEach(answerBlock => answerBlock.replaceWith(answerBlock.cloneNode(true)))
   

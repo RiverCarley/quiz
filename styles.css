@@ -116,6 +116,16 @@ h4 {
     font-style: normal;
    
 }
+#additional-result-block {
+    /* Your CSS styles for the additional result block */
+    /* For example: */
+    width: 100%; /* Adjust to your desired width */
+    height: 5vw; /* Adjust to your desired height */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(49, 44, 44);
+
+}
 
 a {
     width: 100%; /* Change to a percentage for responsiveness */
@@ -134,6 +144,7 @@ a {
     font-style: normal;
    
 }
+
 
 img {
     max-width: 100%; /* Adjust to fit container */

@@ -111,7 +111,16 @@ h4 {
     background-color: rgb(207, 197, 168);;
     color: rgb(0, 0, 0);
 }
+#additional-result-block {
+    /* Your CSS styles for the additional result block */
+    /* For example: */
+    width: 100%; /* Adjust to your desired width */
+    height: 5vw; /* Adjust to your desired height */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(207, 197, 168);;
 
+}
 a {
     width: 100%; /* Change to a percentage for responsiveness */
     max-width: 4000px; /* Add a max-width for larger screens */
@@ -128,6 +137,7 @@ a {
     font-weight: 500;
     font-style: normal;
 }
+
 
 img {
 
