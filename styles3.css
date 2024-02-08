@@ -30,7 +30,7 @@ body {
 }
 
 h1 {
-    font-size: 6vw; /* Using viewport units for font size */
+    font-size: 14vw; /* Using viewport units for font size */
     text-align: center;
     width: 100%;
     background-color: rgb(234, 235, 225);
@@ -38,12 +38,18 @@ h1 {
     margin: 0;
     padding: 2vw; /* Using viewport units for padding */
     box-sizing: border-box; /* Include padding and border in the width */
+    font-family: "sabbath-black", serif;
+    font-weight: 800;
+    font-style: normal;
 }
 
 h3 {
     font-size: 3vw; /* Using viewport units for font size */
     text-align: center;
     color: rgb(0, 0, 0);
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 p {
@@ -51,6 +57,9 @@ p {
     margin: 0 2vw; /* Using viewport units for margin */
     font-size: 1.4vw; /* Using viewport units for font size */
     color: rgb(0, 0, 0);
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 
@@ -66,6 +75,9 @@ a {
     color: rgb(0, 0, 0);
     margin: 2vw 0; /* Using viewport units for margin */
     text-decoration: none;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
 }
 button{
     display: flex;
