@@ -76,7 +76,7 @@ const answers = [
         tit:"Frankenstein",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
      
     },
@@ -92,7 +92,7 @@ const answers = [
         tit:"The Heart of the Buddha's Teaching",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
 
 
@@ -109,7 +109,7 @@ const answers = [
         tit:"When Breath Becomes Air",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
    
     },
@@ -127,7 +127,7 @@ const answers = [
         tit:"On the Road",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
     },
     {
@@ -142,7 +142,7 @@ const answers = [
         tit:"One Hundred Years of Solitude",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
     },
     {  
@@ -157,7 +157,7 @@ const answers = [
         tit:"Never Finished",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
     },
     {
@@ -174,7 +174,7 @@ const answers = [
         tit:"Norse Mythology",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
     },
     {
@@ -189,7 +189,7 @@ const answers = [
         tit:"Game of Thrones",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
     },
     {  
@@ -204,7 +204,7 @@ const answers = [
         tit:"Fire and Blood",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
     },
      {
@@ -219,7 +219,7 @@ const answers = [
         tit:"Fear and Loathing in Las Vegas",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
      
     },
@@ -235,7 +235,7 @@ const answers = [
         tit:"The Catcher in the Rye",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
     },
     {  
@@ -250,7 +250,7 @@ const answers = [
         tit:"Brave New World",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
     },
     {
@@ -267,7 +267,7 @@ const answers = [
         tit:"The Time Machine",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
     },
     {
@@ -282,7 +282,7 @@ const answers = [
         tit:"1984",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
     },
     {  
@@ -297,7 +297,7 @@ const answers = [
         tit:"Dmt the Spitit Molecule",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
     },
     {
@@ -314,7 +314,7 @@ const answers = [
         tit:"The Fellowship of the Ring",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
     },
     {
@@ -329,7 +329,7 @@ const answers = [
         tit:"Dune",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
     },
     {  
@@ -344,7 +344,7 @@ const answers = [
         tit:"The HitchHikers's Guilde to the Galaxy",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
     },
     {
@@ -359,7 +359,7 @@ const answers = [
         tit:"One Flew Over the Cuckoo's Nest",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
     },
     {
@@ -374,7 +374,7 @@ const answers = [
         tit:"Catch 22",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
     },
     {  
@@ -389,7 +389,7 @@ const answers = [
         tit:"A Visit From the Goon Squad",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
     },
     {
@@ -406,7 +406,7 @@ const answers = [
         tit:"Slaughter House-Five",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
     },
     {
@@ -421,7 +421,7 @@ const answers = [
         tit:"The Road",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
     },
     {  
@@ -436,7 +436,7 @@ const answers = [
         tit:"American Dirt",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
     },
     {
@@ -453,7 +453,7 @@ const answers = [
         tit:"The Complete Tales of H.P. Lovecraft",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
     },
     {
@@ -468,7 +468,7 @@ const answers = [
         tit:"Bradbury Stories: 100 of His Most Celebrated Tales",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
     },
     {  
@@ -483,7 +483,7 @@ const answers = [
         tit:"The Way of Kings",
         texts1:"Author:",
         page1:"Page Count:",
-        dis1:"Description",
+        dis1:"Description:",
         tit1:"Title:",
     },
 ]
