@@ -115,7 +115,7 @@ h4 {
     /* Your CSS styles for the additional result block */
     /* For example: */
     width: 100%; /* Adjust to your desired width */
-    height: 5vw; /* Adjust to your desired height */
+    height: 0vw; /* Adjust to your desired height */
     display: flex;
     justify-content: center;
     background-color: rgb(207, 197, 168);;

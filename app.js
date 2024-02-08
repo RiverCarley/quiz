@@ -655,7 +655,11 @@ const showAnswer = () => {
     
     const allAnswerBlocks = document.querySelectorAll('.answer-block')
     Array.from(allAnswerBlocks).forEach(answerBlock => answerBlock.replaceWith(answerBlock.cloneNode(true)))
-  
+
+  // Trigger height change of additional result block
+    const additionalResultBlock = document.getElementById('additional-result-block');
+    additionalResultBlock.style.height = '5vw';
+    additionalResultBlock.style.overflow = 'hidden'; // Hide content when height is 0
 
 }
 
