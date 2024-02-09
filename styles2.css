@@ -18,10 +18,10 @@ section {
 }
 
 h1 {
-    font-size: 17vw; /* Using viewport units for font-size */
+    font-size: 10vw; /* Using viewport units for font-size */
     text-align: center;
-    height: 50vw; /* Using viewport units for height */
-    background-color: rgb(234, 235, 225);
+    height: 30vw; /* Using viewport units for height */
+    background-color: rgb(215, 215, 205);
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
@@ -35,23 +35,23 @@ h1 {
 font-weight: 800;
 font-style: normal;
 }
-
 h4 {
-    padding-left: 0.5vw;
     font-size: 3vw; /* Using viewport units for font-size */
     margin: 0;
+    padding-left: 0.5vw;
     font-family: "vendetta", serif;
     font-weight: 500;
     font-style: normal;
    
 }
 
+
 .title-block.title-block-0 {
     width: 100%; /* Change to a percentage for responsiveness */
     max-width: 4000px; /* Add a max-width for larger screens */
     height: 15vw; /* Using viewport units for height */
-    font-size: 4vw; /* Using viewport units for font-size */
-    background-color: rgb(255, 253, 253);
+    font-size: 3vw; /* Using viewport units for font-size */
+    background-color: rgb(235, 235, 225);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,8 +65,8 @@ h4 {
     width: 100%; /* Change to a percentage for responsiveness */
     max-width: 4000px; /* Add a max-width for larger screens */
     height: 15vw; /* Using viewport units for height */
-    font-size: 4vw; /* Using viewport units for font-size */
-    background-color: rgb(255, 253, 253);
+    font-size: 3vw; /* Using viewport units for font-size */
+    background-color: rgb(225, 225, 215);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,8 +80,8 @@ h4 {
     width: 100%; /* Change to a percentage for responsiveness */
     max-width: 4000px; /* Add a max-width for larger screens */
     height: 15vw; /* Using viewport units for height */
-    font-size: 4vw; /* Using viewport units for font-size */
-    background-color: rgb(255, 253, 253);
+    font-size: 3vw; /* Using viewport units for font-size */
+    background-color: rgb(215, 215, 205);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,12 +93,40 @@ h4 {
 }
 
 
-.answer-options {
+.answer-options-0 {
     width: 100%; /* Change to a percentage for responsiveness */
     max-width: 4000px; /* Add a max-width for larger screens */
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(234, 235, 225);
+    background-color: rgb(235, 235, 225);
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    font-family: "vendetta", serif;
+
+    font-weight: 500;
+    font-style: normal;
+}
+.answer-options-1 {
+    width: 100%; /* Change to a percentage for responsiveness */
+    max-width: 4000px; /* Add a max-width for larger screens */
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(225, 225, 215);
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    font-family: "vendetta", serif;
+
+    font-weight: 500;
+    font-style: normal;
+}
+.answer-options-2 {
+    width: 100%; /* Change to a percentage for responsiveness */
+    max-width: 4000px; /* Add a max-width for larger screens */
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(215, 215, 205);
     color: rgb(0, 0, 0);
     justify-content: space-between;
     align-items: center;
@@ -111,7 +139,7 @@ h4 {
 .answer-block-0-0 {
     width: 25%; /* Change to a percentage for responsiveness */
     height: 15vw; /* Using viewport units for height */
-    font-size: 4vw; /* Using viewport units for font-size */
+    font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
     border-radius: 3vw; /* Using viewport units for border-radius */
@@ -126,11 +154,12 @@ h4 {
     font-family: "vendetta", serif;
     font-weight: 500;
     font-style: normal;
+    
 }
 .answer-block-0-1 {
     width: 25%; /* Change to a percentage for responsiveness */
     height: 15vw; /* Using viewport units for height */
-    font-size: 4vw; /* Using viewport units for font-size */
+    font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
     border-radius: 3vw; /* Using viewport units for border-radius */
@@ -149,7 +178,7 @@ h4 {
 .answer-block-0-2 {
     width: 25%; /* Change to a percentage for responsiveness */
     height: 15vw; /* Using viewport units for height */
-    font-size: 4vw; /* Using viewport units for font-size */
+    font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
     border-radius: 3vw; /* Using viewport units for border-radius */
@@ -168,7 +197,7 @@ h4 {
 .answer-block-1-0 {
     width: 25%; /* Change to a percentage for responsiveness */
     height: 15vw; /* Using viewport units for height */
-    font-size: 4vw; /* Using viewport units for font-size */
+    font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
     border-radius: 3vw; /* Using viewport units for border-radius */
@@ -187,7 +216,7 @@ h4 {
 .answer-block-1-1 {
     width: 25%; /* Change to a percentage for responsiveness */
     height: 15vw; /* Using viewport units for height */
-    font-size: 4vw; /* Using viewport units for font-size */
+    font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
     border-radius: 3vw; /* Using viewport units for border-radius */
@@ -206,7 +235,7 @@ h4 {
 .answer-block-1-2 {
     width: 25%; /* Change to a percentage for responsiveness */
     height: 15vw; /* Using viewport units for height */
-    font-size: 4vw; /* Using viewport units for font-size */
+    font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
     border-radius: 3vw; /* Using viewport units for border-radius */
@@ -225,7 +254,7 @@ h4 {
 .answer-block-2-0 {
     width: 25%; /* Change to a percentage for responsiveness */
     height: 15vw; /* Using viewport units for height */
-    font-size: 4vw; /* Using viewport units for font-size */
+    font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
     border-radius: 3vw; /* Using viewport units for border-radius */
@@ -244,7 +273,7 @@ h4 {
 .answer-block-2-1 {
     width: 25%; /* Change to a percentage for responsiveness */
     height: 15vw; /* Using viewport units for height */
-    font-size: 4vw; /* Using viewport units for font-size */
+    font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
     border-radius: 3vw; /* Using viewport units for border-radius */
@@ -263,7 +292,7 @@ h4 {
 .answer-block-2-2 {
     width: 25%; /* Change to a percentage for responsiveness */
     height: 15vw; /* Using viewport units for height */
-    font-size: 4vw; /* Using viewport units for font-size */
+    font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
     border-radius: 3vw; /* Using viewport units for border-radius */

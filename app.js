@@ -566,6 +566,10 @@ const populateQuestions = () => {
 
         const answersBlock = document.createElement('div');
         answersBlock.id = question.id + "-questions";
+        
+        // Add class based on index for answer-options
+        answersBlock.classList.add(`answer-options-${index}`);
+        
         answersBlock.classList.add('answer-options');
 
         unansweredQuestions.push(question.id);
