@@ -387,20 +387,20 @@ p {
     font-size: 1.5vw; /* Using viewport units for font-size */
     padding-left: 1.5vw;
     padding-right: 1.5vw;
-
+    margin-top: -0.15vw;
     font-family: "vendetta", serif;
     font-weight: 500;
     font-style: normal;
     padding-bottom: 1.5vw;
 }
 h5 {
-    margin-top: -0.3vw;
-    margin-bottom: -0.3vw;
+    margin-top:-0.8vw;
+    margin-bottom: -1.8vw;
     font-size: 2.9vw; /* Using viewport units for font-size */
     font-family: "vendetta", serif;
     font-weight: 500;
     font-style: normal;
-    padding-left: 1.5vw;
+    padding-left: 0.5vw;
     padding-right: 1.5vw;
 }
 button{
