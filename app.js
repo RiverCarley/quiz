@@ -78,6 +78,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"1818",
      
     },
     {
@@ -94,6 +96,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"",
 
 
     },
@@ -111,6 +115,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"",
    
     },
     {
@@ -129,6 +135,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"",
     },
     {
         combination: ["Sparkling Water", "Rabbit", "2024 Volvo S60"],
@@ -144,6 +152,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"",
     },
     {  
         combination: ["Sparkling Water", "Rabbit", "Tesla Model 3"],
@@ -159,6 +169,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"",
     },
     {
         combination: ["Sparkling Water", "Dog", "1965 Shelby Cobra"],
@@ -176,6 +188,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"",
     },
     {
         combination: ["Sparkling Water", "Dog", "2024 Volvo S60"],
@@ -191,6 +205,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"",
     },
     {  
         combination: ["Sparkling Water", "Dog", "Tesla Model 3"],
@@ -206,6 +222,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"",
     },
      {
         combination: ["Psilocybin Tea", "Sea Monkeys", "1965 Shelby Cobra"],
@@ -221,6 +239,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"",
      
     },
     {
@@ -237,6 +257,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"",
     },
     {  
         combination: ["Psilocybin Tea", "Sea Monkeys", "Tesla Model 3"],
@@ -252,6 +274,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"",
     },
     {
         combination: ["Psilocybin Tea", "Rabbit", "1965 Shelby Cobra"],
@@ -269,6 +293,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"",
     },
     {
         combination: ["Psilocybin Tea", "Rabbit", "2024 Volvo S60"],
@@ -284,6 +310,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"",
     },
     {  
         combination: ["Psilocybin Tea", "Rabbit", "Tesla Model 3"],
@@ -299,6 +327,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"",
     },
     {
         combination: ["Psilocybin Tea", "Dog", "1965 Shelby Cobra"],
@@ -316,6 +346,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"",
     },
     {
         combination: ["Psilocybin Tea", "Dog", "2024 Volvo S60"],
@@ -331,6 +363,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"",
     },
     {  
         combination: ["Psilocybin Tea", "Dog", "Tesla Model 3"],
@@ -346,6 +380,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"",
     },
     {
         combination: ["Cream Soda", "Sea Monkeys", "1965 Shelby Cobra"],
@@ -361,6 +397,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"",
     },
     {
         combination: ["Cream Soda", "Sea Monkeys", "2024 Volvo S60"],
@@ -376,6 +414,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"",
     },
     {  
         combination: ["Cream Soda", "Sea Monkeys", "Tesla Model 3"],
@@ -391,6 +431,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"",
     },
     {
         combination: ["Cream Soda", "Rabbit", "1965 Shelby Cobra"],
@@ -408,6 +450,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"",
     },
     {
         combination: ["Cream Soda", "Rabbit", "2024 Volvo S60"],
@@ -423,6 +467,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"",
     },
     {  
         combination: ["Cream Soda", "Rabbit", "Tesla Model 3"],
@@ -438,6 +484,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"",
     },
     {
         combination: ["Cream Soda", "Dog", "1965 Shelby Cobra"],
@@ -455,6 +503,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"",
     },
     {
         combination: ["Cream Soda", "Dog", "2024 Volvo S60"],
@@ -470,6 +520,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"",
     },
     {  
         combination: ["Cream Soda", "Dog", "Tesla Model 3"],
@@ -485,6 +537,8 @@ const answers = [
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
+        year:"Year:",
+        year1:"",
     },
 ]
 // need to have a default answer to compensate for lack of combination data
@@ -636,6 +690,12 @@ const showAnswer = () => {
                 function Replacetiti(tt){
                     document.getElementById("t.1").innerText=tt
                     }
+                    function Replaceyear(yx){
+                        document.getElementById("yx").innerText=yx
+                        }
+                        function Replaceyeari(yyx){
+                            document.getElementById("y.1").innerText=yyx
+                            }
     
 
     answerBlock.append(answerTitle)
@@ -652,6 +712,8 @@ const showAnswer = () => {
     ReplacePagei(""+result.page1+"");
     Replacedisi(""+result.dis1+"");
     Replacetiti(""+result.tit1+"");
+    Replaceyear(""+result.year+"");
+    Replaceyeari(""+result.year1+"");
     
     const allAnswerBlocks = document.querySelectorAll('.answer-block')
     Array.from(allAnswerBlocks).forEach(answerBlock => answerBlock.replaceWith(answerBlock.cloneNode(true)))
