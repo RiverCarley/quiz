@@ -546,11 +546,14 @@ const answers = [
 const unansweredQuestions = []
 const chosenAnswers = []
 const populateQuestions = () => {
-    
-    questions.forEach(question => {
+    questions.forEach((question, index) => {
         const titleBlock = document.createElement('div');
         titleBlock.id = question.id;
         titleBlock.classList.add('title-block');
+
+        // Add class based on index
+        titleBlock.classList.add(`title-block-${index}`);
+
         const titleHeading = document.createElement('h2');
         titleHeading.textContent = question.text;
         titleBlock.append(titleHeading);
@@ -567,9 +570,13 @@ const populateQuestions = () => {
 
         unansweredQuestions.push(question.id);
 
-        question.answers.forEach(answer => {
+        question.answers.forEach((answer, answerIndex) => { // Added answerIndex parameter
             const answerBlock = document.createElement('div');
             answerBlock.classList.add('answer-block');
+
+            // Add class based on index and answerIndex
+            answerBlock.classList.add(`answer-block-${index}-${answerIndex}`);
+
             answerBlock.addEventListener('mouseover', () => highlightBlocks(question.id, true));
             answerBlock.addEventListener('mouseout', () => highlightBlocks(question.id, false));
             answerBlock.addEventListener('click', () => handleClick(question.id, answer.text));
@@ -585,6 +592,7 @@ const populateQuestions = () => {
         questionDisplay.append(answersBlock);
     });
 };
+
 
 function highlightBlocks(questionId, isHighlighted) {
     const titleBlock = document.getElementById(questionId);

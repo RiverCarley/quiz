@@ -46,7 +46,7 @@ h4 {
    
 }
 
-.title-block {
+.title-block.title-block-0 {
     width: 100%; /* Change to a percentage for responsiveness */
     max-width: 4000px; /* Add a max-width for larger screens */
     height: 15vw; /* Using viewport units for height */
@@ -61,6 +61,37 @@ h4 {
     font-style: normal;
    
 }
+.title-block.title-block-1 {
+    width: 100%; /* Change to a percentage for responsiveness */
+    max-width: 4000px; /* Add a max-width for larger screens */
+    height: 15vw; /* Using viewport units for height */
+    font-size: 4vw; /* Using viewport units for font-size */
+    background-color: rgb(255, 253, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+   
+    color: rgb(0, 0, 0); /* Change 'red' to your desired color */
+}
+.title-block.title-block-2 {
+    width: 100%; /* Change to a percentage for responsiveness */
+    max-width: 4000px; /* Add a max-width for larger screens */
+    height: 15vw; /* Using viewport units for height */
+    font-size: 4vw; /* Using viewport units for font-size */
+    background-color: rgb(255, 253, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+   
+    color: rgb(0, 0, 0); /* Change 'red' to your desired color */
+}
+
 
 .answer-options {
     width: 100%; /* Change to a percentage for responsiveness */
@@ -77,7 +108,159 @@ h4 {
     font-style: normal;
 }
 
-.answer-block {
+.answer-block-0-0 {
+    width: 25%; /* Change to a percentage for responsiveness */
+    height: 15vw; /* Using viewport units for height */
+    font-size: 4vw; /* Using viewport units for font-size */
+    text-align: center;
+    overflow: hidden;
+    border-radius: 3vw; /* Using viewport units for border-radius */
+    border: 1vw solid #ffffff; /* Using viewport units for border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    margin-left: 1vw;
+    margin-right:1vw;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.answer-block-0-1 {
+    width: 25%; /* Change to a percentage for responsiveness */
+    height: 15vw; /* Using viewport units for height */
+    font-size: 4vw; /* Using viewport units for font-size */
+    text-align: center;
+    overflow: hidden;
+    border-radius: 3vw; /* Using viewport units for border-radius */
+    border: 1vw solid #ffffff; /* Using viewport units for border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    margin-left: 1vw;
+    margin-right:1vw;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.answer-block-0-2 {
+    width: 25%; /* Change to a percentage for responsiveness */
+    height: 15vw; /* Using viewport units for height */
+    font-size: 4vw; /* Using viewport units for font-size */
+    text-align: center;
+    overflow: hidden;
+    border-radius: 3vw; /* Using viewport units for border-radius */
+    border: 1vw solid #ffffff; /* Using viewport units for border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    margin-left: 1vw;
+    margin-right:1vw;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.answer-block-1-0 {
+    width: 25%; /* Change to a percentage for responsiveness */
+    height: 15vw; /* Using viewport units for height */
+    font-size: 4vw; /* Using viewport units for font-size */
+    text-align: center;
+    overflow: hidden;
+    border-radius: 3vw; /* Using viewport units for border-radius */
+    border: 1vw solid #ffffff; /* Using viewport units for border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    margin-left: 1vw;
+    margin-right:1vw;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.answer-block-1-1 {
+    width: 25%; /* Change to a percentage for responsiveness */
+    height: 15vw; /* Using viewport units for height */
+    font-size: 4vw; /* Using viewport units for font-size */
+    text-align: center;
+    overflow: hidden;
+    border-radius: 3vw; /* Using viewport units for border-radius */
+    border: 1vw solid #ffffff; /* Using viewport units for border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    margin-left: 1vw;
+    margin-right:1vw;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.answer-block-1-2 {
+    width: 25%; /* Change to a percentage for responsiveness */
+    height: 15vw; /* Using viewport units for height */
+    font-size: 4vw; /* Using viewport units for font-size */
+    text-align: center;
+    overflow: hidden;
+    border-radius: 3vw; /* Using viewport units for border-radius */
+    border: 1vw solid #ffffff; /* Using viewport units for border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    margin-left: 1vw;
+    margin-right:1vw;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.answer-block-2-0 {
+    width: 25%; /* Change to a percentage for responsiveness */
+    height: 15vw; /* Using viewport units for height */
+    font-size: 4vw; /* Using viewport units for font-size */
+    text-align: center;
+    overflow: hidden;
+    border-radius: 3vw; /* Using viewport units for border-radius */
+    border: 1vw solid #ffffff; /* Using viewport units for border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    margin-left: 1vw;
+    margin-right:1vw;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.answer-block-2-1 {
+    width: 25%; /* Change to a percentage for responsiveness */
+    height: 15vw; /* Using viewport units for height */
+    font-size: 4vw; /* Using viewport units for font-size */
+    text-align: center;
+    overflow: hidden;
+    border-radius: 3vw; /* Using viewport units for border-radius */
+    border: 1vw solid #ffffff; /* Using viewport units for border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    margin-left: 1vw;
+    margin-right:1vw;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.answer-block-2-2 {
     width: 25%; /* Change to a percentage for responsiveness */
     height: 15vw; /* Using viewport units for height */
     font-size: 4vw; /* Using viewport units for font-size */
