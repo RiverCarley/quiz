@@ -2,13 +2,13 @@
     all: unset;
 }
 #container {
-    border: 5vw solid rgb(207, 197, 168); /* Using viewport units for border */
+    border: 5vw solid rgb(49, 44, 44)/* Using viewport units for border */
 }
 
 body {
     display: flex;
     justify-content: center;
-    background-color: rgb(235, 235, 225);
+    background-color: rgb(63, 63, 63);
 }
 
 section {
@@ -21,8 +21,8 @@ h1 {
     font-size: 10vw; /* Using viewport units for font-size */
     text-align: center;
     height: 30vw; /* Using viewport units for height */
-    background-color: rgb(215, 215, 205);
-    color: rgb(0, 0, 0);
+    background-color: rgb(63, 63, 63);
+    color: rgb(144, 144, 144);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,7 +51,7 @@ h4 {
     max-width: 4000px; /* Add a max-width for larger screens */
     height: 15vw; /* Using viewport units for height */
     font-size: 3vw; /* Using viewport units for font-size */
-    background-color: rgb(235, 235, 225);
+    background-color: rgb(118, 117, 117);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +66,7 @@ h4 {
     max-width: 4000px; /* Add a max-width for larger screens */
     height: 15vw; /* Using viewport units for height */
     font-size: 3vw; /* Using viewport units for font-size */
-    background-color: rgb(225, 225, 215);
+    background-color: rgb(128, 127, 127);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,7 +81,7 @@ h4 {
     max-width: 4000px; /* Add a max-width for larger screens */
     height: 15vw; /* Using viewport units for height */
     font-size: 3vw; /* Using viewport units for font-size */
-    background-color: rgb(215, 215, 205);
+    background-color: rgb(138, 137, 137);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,7 +98,7 @@ h4 {
     max-width: 4000px; /* Add a max-width for larger screens */
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(235, 235, 225);
+    background-color: rgb(118, 117, 117);
     color: rgb(0, 0, 0);
     justify-content: space-between;
     align-items: center;
@@ -112,7 +112,7 @@ h4 {
     max-width: 4000px; /* Add a max-width for larger screens */
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(225, 225, 215);
+    background-color: rgb(128, 127, 127);
     color: rgb(0, 0, 0);
     justify-content: space-between;
     align-items: center;
@@ -126,7 +126,7 @@ h4 {
     max-width: 4000px; /* Add a max-width for larger screens */
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(215, 215, 205);
+    background-color: rgb(138, 137, 137);
     color: rgb(0, 0, 0);
     justify-content: space-between;
     align-items: center;
@@ -143,7 +143,7 @@ h4 {
     text-align: center;
     overflow: hidden;
     border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #ffffff; /* Using viewport units for border */
+    border: 1vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -163,7 +163,7 @@ h4 {
     text-align: center;
     overflow: hidden;
     border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #ffffff; /* Using viewport units for border */
+    border: 1vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -182,7 +182,7 @@ h4 {
     text-align: center;
     overflow: hidden;
     border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #ffffff; /* Using viewport units for border */
+    border: 1vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -201,7 +201,7 @@ h4 {
     text-align: center;
     overflow: hidden;
     border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #ffffff; /* Using viewport units for border */
+    border: 1vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -220,7 +220,7 @@ h4 {
     text-align: center;
     overflow: hidden;
     border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #ffffff; /* Using viewport units for border */
+    border: 1vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -239,7 +239,7 @@ h4 {
     text-align: center;
     overflow: hidden;
     border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #ffffff; /* Using viewport units for border */
+    border: 1vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -258,7 +258,7 @@ h4 {
     text-align: center;
     overflow: hidden;
     border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #ffffff; /* Using viewport units for border */
+    border: 1vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -277,7 +277,7 @@ h4 {
     text-align: center;
     overflow: hidden;
     border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #ffffff; /* Using viewport units for border */
+    border: 1vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -296,7 +296,7 @@ h4 {
     text-align: center;
     overflow: hidden;
     border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #ffffff; /* Using viewport units for border */
+    border: 1vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -310,7 +310,7 @@ h4 {
 }
 
 .answer-block a {
-    color: rgb(212, 198, 198);
+    color: rgb(77, 74, 74)
 }
 
 .result-block {
@@ -320,7 +320,7 @@ h4 {
     display: flex;
     font-size: 1.5vw; /* Using viewport units for font-size */
     justify-content: center;
-    background-color: rgb(207, 197, 168);;
+    background-color: rgb(49, 44, 44);
     color: rgb(0, 0, 0);
 }
 #additional-result-block {
@@ -330,7 +330,7 @@ h4 {
     height: 0vw; /* Adjust to your desired height */
     display: flex;
     justify-content: center;
-    background-color: rgb(207, 197, 168);;
+    background-color: rgb(49, 44, 44);
 
 }
 a {
@@ -341,8 +341,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(235, 235, 225);
-    color: rgb(0, 0, 0);
+    background-color: rgb(63, 63, 63);
+    color: rgb(144, 144, 144);
     margin: 0;
     padding: 0;
     font-family: "vendetta", serif;
@@ -359,7 +359,7 @@ img {
 }
 
 .answer-block:hover {
-    background-color: #ffffff;
+    background-color: #686666;
     cursor: pointer;
 }
 
@@ -379,8 +379,8 @@ img {
 
 #text-container {
    /* margin-left: 2vw; /* Using viewport units for margin */
-    color: rgb(0, 0, 0);
-    background-color: rgb(235, 235, 225);
+   color: rgb(144, 144, 144);
+   background-color: rgb(63, 63, 63);
 }
 
 p {
@@ -406,5 +406,4 @@ h5 {
 button{
     display: flex;
     justify-content: center;
-    background-color: rgb(234, 235, 225);
 }

@@ -153,7 +153,7 @@ const answers = [
         dis1:"Description:",
         tit1:"Title:",
         year:"Year:",
-        year1:"",
+        year1:"417",
     },
     {  
         combination: ["Sparkling Water", "Rabbit", "Tesla Model 3"],
@@ -258,7 +258,7 @@ const answers = [
         dis1:"Description:",
         tit1:"Title:",
         year:"Year:",
-        year1:"",
+        year1:"1951",
     },
     {  
         combination: ["Psilocybin Tea", "Sea Monkeys", "Tesla Model 3"],
@@ -451,7 +451,7 @@ const answers = [
         dis1:"Description:",
         tit1:"Title:",
         year:"Year:",
-        year1:"",
+        year1:"2020",
     },
     {
         combination: ["Cream Soda", "Rabbit", "2024 Volvo S60"],
@@ -468,7 +468,7 @@ const answers = [
         dis1:"Description:",
         tit1:"Title:",
         year:"Year:",
-        year1:"2020",
+        year1:"2006",
     },
     {  
         combination: ["Cream Soda", "Rabbit", "Tesla Model 3"],
