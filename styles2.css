@@ -21,7 +21,7 @@ h1 {
     font-size: 10vw; /* Using viewport units for font-size */
     text-align: center;
     height: 30vw; /* Using viewport units for height */
-    background-color: rgb(215, 215, 205);
+    background-color: rgb(245, 245, 235);
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
