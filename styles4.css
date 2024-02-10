@@ -51,11 +51,12 @@ h4 {
     max-width: 4000px; /* Add a max-width for larger screens */
     height: 15vw; /* Using viewport units for height */
     font-size: 3vw; /* Using viewport units for font-size */
-    background-color: rgb(118, 117, 117);
+    background-color: rgb(53, 53, 53);
     display: flex;
+    
     justify-content: center;
     align-items: center;
-    color: rgb(0, 0, 0);
+    color: rgb(144, 144, 144);
     font-family: "vendetta", serif;
     font-weight: 500;
     font-style: normal;
@@ -66,7 +67,8 @@ h4 {
     max-width: 4000px; /* Add a max-width for larger screens */
     height: 15vw; /* Using viewport units for height */
     font-size: 3vw; /* Using viewport units for font-size */
-    background-color: rgb(128, 127, 127);
+    background-color: rgb(43, 43, 43);
+    color: rgb(144, 144, 144);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,14 +76,15 @@ h4 {
     font-weight: 500;
     font-style: normal;
    
-    color: rgb(0, 0, 0); /* Change 'red' to your desired color */
+
 }
 .title-block.title-block-2 {
     width: 100%; /* Change to a percentage for responsiveness */
     max-width: 4000px; /* Add a max-width for larger screens */
     height: 15vw; /* Using viewport units for height */
     font-size: 3vw; /* Using viewport units for font-size */
-    background-color: rgb(138, 137, 137);
+    background-color: rgb(33, 33, 33);
+    color: rgb(144, 144, 144);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +92,7 @@ h4 {
     font-weight: 500;
     font-style: normal;
    
-    color: rgb(0, 0, 0); /* Change 'red' to your desired color */
+
 }
 
 
@@ -98,8 +101,9 @@ h4 {
     max-width: 4000px; /* Add a max-width for larger screens */
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(118, 117, 117);
-    color: rgb(0, 0, 0);
+    background-color: rgb(53, 53, 53);
+
+    color: rgb(144, 144, 144);
     justify-content: space-between;
     align-items: center;
     font-family: "vendetta", serif;
@@ -112,8 +116,9 @@ h4 {
     max-width: 4000px; /* Add a max-width for larger screens */
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(128, 127, 127);
-    color: rgb(0, 0, 0);
+    background-color: rgb(43, 43, 43);
+
+    color: rgb(144, 144, 144);
     justify-content: space-between;
     align-items: center;
     font-family: "vendetta", serif;
@@ -126,8 +131,8 @@ h4 {
     max-width: 4000px; /* Add a max-width for larger screens */
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(138, 137, 137);
-    color: rgb(0, 0, 0);
+    background-color: rgb(33, 33, 33);
+    color: rgb(144, 144, 144);
     justify-content: space-between;
     align-items: center;
     font-family: "vendetta", serif;
