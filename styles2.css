@@ -1,9 +1,6 @@
 .reset {
     all: unset;
 }
-#container {
-    border: 5vw solid rgb(207, 197, 168); /* Using viewport units for border */
-}
 
 body {
     display: flex;
@@ -142,8 +139,8 @@ h4 {
     font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
-    border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #ffffff; /* Using viewport units for border */
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -162,8 +159,8 @@ h4 {
     font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
-    border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #ffffff; /* Using viewport units for border */
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -181,8 +178,8 @@ h4 {
     font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
-    border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #ffffff; /* Using viewport units for border */
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -200,8 +197,8 @@ h4 {
     font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
-    border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #ffffff; /* Using viewport units for border */
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -219,8 +216,8 @@ h4 {
     font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
-    border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #ffffff; /* Using viewport units for border */
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -238,8 +235,8 @@ h4 {
     font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
-    border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #ffffff; /* Using viewport units for border */
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -257,8 +254,8 @@ h4 {
     font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
-    border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #ffffff; /* Using viewport units for border */
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -276,8 +273,8 @@ h4 {
     font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
-    border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #ffffff; /* Using viewport units for border */
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -295,8 +292,8 @@ h4 {
     font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
-    border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #ffffff; /* Using viewport units for border */
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -359,7 +356,8 @@ img {
 }
 
 .answer-block:hover {
-    background-color: #ffffff;
+    background-color: #000000;
+    color: rgb(235, 235, 225);
     cursor: pointer;
 }
 
