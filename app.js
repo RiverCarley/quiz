@@ -210,20 +210,20 @@ const answers = [
     },
     {  
         combination: ["Sparkling Water", "Dog", "Tesla Model 3"],
-        text: "Fire and Blood by George R.R. Martin",
+        text: "Mythos by Stephen Fry",
         textb: "15",
-        texty: "https://www.goodreads.com/book/show/39943621-fire-blood?from_search=true&from_srp=true&qid=fVPOJrt00I&rank=2",
-        textz: "https://www.amazon.ca/Fire-Blood-Thrones-Targaryen-History-ebook/dp/B07C6TBTV3/ref=sr_1_1?crid=PR0U9PXDB1GE&keywords=fire+and+blood&qid=1707154402&sprefix=fire+and+blood%2Caps%2C96&sr=8-1",
-        texts:"George R.R. Martin",
-        page:"706",
-        dis:"With all the fire and fury fans have come to expect from internationally bestselling Author: George R. R. Martin, this is the first volume of the definitive two-part history of the Targaryens in Westeros. Centuries before the events of A Game of Thrones, House Targaryen—the only family of dragonlords to survive the Doom of Valyria—took up residence on Dragonstone. Fire and Blood begins their tale with the legendary Aegon the Conqueror, creator of the Iron Throne, and goes on to recount the generations of Targaryens who fought to hold that iconic seat, all the way up to the civil war that nearly tore their dynasty apart. What really happened during the Dance of the Dragons? Why did it become so deadly to visit Valyria after the Doom? What is the origin of Daenerys’s three dragon eggs? These are but a few of the questions answered in this essential chronicle, as related by a learned maester of the Citadel and featuring more than eighty all-new black-and-white illustrations by artist Doug Wheatley. Readers have glimpsed small parts of this narrative in such volumes as The World of Ice & Fire, but now, for the first time, the full tapestry of Targaryen history is revealed. With all the scope and grandeur of Gibbon’s The History of the Decline and Fall of the Roman Empire, Fire and Blood is the ultimate game of thrones, giving readers a whole new appreciation for the dynamic, often bloody, and always fascinating history of Westeros.",
-        tit:"Fire and Blood",
+        texty: "https://www.goodreads.com/book/show/35074096-mythos?ref=nav_sb_noss_l_6",
+        textz: "https://www.amazon.ca/Mythos-Ancient-Mythology-Telling-Classical-ebook/dp/B07SLLYGF6/ref=sr_1_1?crid=3RXWB61658BIZ&keywords=mythos+stephen+fry&qid=1707846675&sprefix=mythos%2Caps%2C169&sr=8-1",
+        texts:"Stephen Fry",
+        page:"416",
+        dis:"Mythos is a modern collection of Greek myths, stylishly retold by legendary writer, actor, and comedian Stephen Fry. Fry transforms the adventures of Zeus and the Olympians into emotionally resonant and deeply funny stories, without losing any of their original wonder. This stunning book features classical artwork inspired by the myths, as well as learned notes from the author. Each adventure is infused with Fry's distinctive wit, voice, and writing style. Connoisseurs of the Greek myths will appreciate this fresh-yet-reverential interpretation, while newcomers will feel welcome. Retellings brim with humor and emotion and offer rich cultural context Celebrating the thrills, grandeur, and unabashed fun of the Greek myths, Mythos breathes life into ancient tales—from Pandora's box to Prometheus's fire. This gorgeous volume invites you to explore a captivating world with the brilliant storyteller Stephen Fry as your guide.",
+        tit:"Mythos: The Greek Myths Retold",
         texts1:"Author:",
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
         year:"Year:",
-        year1:"2018",
+        year1:"2017",
     },
      {
         combination: ["Psilocybin Tea", "Sea Monkeys", "1965 Shelby Cobra"],
@@ -245,20 +245,20 @@ const answers = [
     },
     {
         combination: ["Psilocybin Tea", "Sea Monkeys", "2024 Volvo S60"],
-        text: "The Catcher in the Rye by J.D.Salinger",
+        text: "ALice Adventures in Wonderland / Through the Looking-Glass",
         textb: "24",
-        texty: "https://www.goodreads.com/book/show/5107.The_Catcher_in_the_Rye?ref=nav_sb_noss_l_14",
-        textz: "https://www.amazon.ca/Catcher-Rye-J-D-Salinger/dp/0316769487/ref=sr_1_1?crid=FM96432PNVTW&keywords=the+catcher+in+the+rye&qid=1707154383&sprefix=the+catcher+in+the+rye%2Caps%2C95&sr=8-1",
-        texts:"J.D.Salinger",
-        page:"234",
-        dis:"It's Christmas time and Holden Caulfield has just been expelled from yet another school...Fleeing the crooks at Pencey Prep, he pinballs around New York City seeking solace in fleeting encounters—shooting the bull with strangers in dive hotels, wandering alone round Central Park, getting beaten up by pimps and cut down by erstwhile girlfriends. The city is beautiful and terrible, in all its neon loneliness and seedy glamour, its mingled sense of possibility and emptiness. Holden passes through it like a ghost, thinking always of his kid sister Phoebe, the only person who really understands him, and his determination to escape the phonies and find a life of true meaning. The Catcher in the Rye is an all-time classic in coming-of-age literature- an elegy to teenage alienation, capturing the deeply human need for connection and the bewildering sense of loss as we leave childhood behind. J.D. Salinger's (1919–2010) classic novel of teenage angst and rebellion was first published in 1951. The novel was included on Time's 2005 list of the 100 best English-language novels written since 1923. It was named by Modern Library and its readers as one of the 100 best English-language novels of the 20th century. It has been frequently challenged in the court for its liberal use of profanity and portrayal of sexuality and in the 1950's and 60's it was the novel that every teenage boy wants to read.",
-        tit:"The Catcher in the Rye",
+        texty: "https://www.goodreads.com/book/show/24213.Alice_s_Adventures_in_Wonderland_Through_the_Looking_Glass?ac=1&from_search=true&qid=qFly9NnVug&rank=1",
+        textz: "https://www.amazon.ca/Alice-Wonderland-Lewis-Carroll/dp/184022780X/ref=sr_1_6?crid=2ZSYBUFL7XRWX&keywords=alice+in+wonderland+book&qid=1707846360&sprefix=alice+in+wonder+land+book%2Caps%2C107&sr=8-6",
+        texts:"Lewis Carroll",
+        page:"239",
+        dis:"When Alice sees a white rabbit take a watch out of its waistcoat pocket she decides to follow it, and a sequence of most unusual events is set in motion. This mini book contains the entire topsy-turvy stories of Alice's Adventures in Wonderland and Through the Looking-Glass, accompanied by practical notes and Martina Pelouso's memorable full-colour illustrations.",
+        tit:"Alice Adventures in Wonderland",
         texts1:"Author:",
         page1:"Page Count:",
         dis1:"Description:",
         tit1:"Title:",
         year:"Year:",
-        year1:"1951",
+        year1:"1871",
     },
     {  
         combination: ["Psilocybin Tea", "Sea Monkeys", "Tesla Model 3"],
@@ -749,7 +749,6 @@ function disableQuestionBlock(questionId, chosenAnswer) {
         }
     })
 }
-var videoElement = document.getElementById('bookVideo');
 var imageElement = document.getElementById('x');
 
 if (!shouldShowVideo) {
