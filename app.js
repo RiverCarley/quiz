@@ -144,7 +144,6 @@ const answers = [
         textb: "16",
         texty: "https://www.goodreads.com/book/show/320.One_Hundred_Years_of_Solitude?ref=nav_sb_noss_l_8",
         textz: "https://www.amazon.ca/Hundred-Solitude-Gabriel-Garc%C3%ADa-M%C3%A1rquez-ebook/dp/B0BFK4THKQ/ref=sr_1_1?crid=2RYSMEFZLOJVJ&keywords=one+hundred+years+of+solitude&qid=1707154567&sprefix=one+hun%2Caps%2C99&sr=8-1",
-        texts:"Gabriel Garcia Marquez",
         page:"417",
         dis:"The brilliant, bestselling, landmark novel that tells the story of the Buendia family, and chronicles the irreconcilable conflict between the desire for solitude and the need for love—in rich, imaginative prose that has come to define an entire genre known as magical realism.",
         tit:"One Hundred Years of Solitude",
@@ -153,7 +152,7 @@ const answers = [
         dis1:"Description:",
         tit1:"Title:",
         year:"Year:",
-        year1:"417",
+        year1:"1967",
     },
     {  
         combination: ["Sparkling Water", "Rabbit", "Tesla Model 3"],
@@ -170,7 +169,7 @@ const answers = [
         dis1:"Description:",
         tit1:"Title:",
         year:"Year:",
-        year1:"1967",
+        year1:"2022",
     },
     {
         combination: ["Sparkling Water", "Dog", "1965 Shelby Cobra"],
