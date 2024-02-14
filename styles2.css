@@ -392,8 +392,8 @@ p {
     padding-bottom: 1.5vw;
 }
 h5 {
-    margin-top:-0.6vw;
-    margin-bottom: -1.8vw;
+    margin-top:-0.5vw;
+    margin-bottom: -0.5vw;
     font-size: 2.9vw; /* Using viewport units for font-size */
     font-family: "vendetta", serif;
     font-weight: 500;
