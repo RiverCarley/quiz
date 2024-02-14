@@ -3,7 +3,6 @@
 <head>
     <link rel="stylesheet" href="https://use.typekit.net/qlo8ofl.css">
     
-    
     <meta charset="UTF-8">
     <title>Book Suggester</title>
     <link id="stylesheet" rel="stylesheet" href="styles2.css">
@@ -26,8 +25,14 @@
         button:hover {
             background-color: #535353; /* Darker green color on hover */
         }
-         /* Media query for phones (screen width less than 600px) */
-         @media only screen and (max-width: 1000px) {
+
+        /* Add this CSS to initially hide the image */
+        #x {
+            display: none;
+        }
+
+        /* Media query for phones (screen width less than 600px) */
+        @media only screen and (max-width: 1000px) {
             #video-and-text {
                 flex-direction: column; /* Stack items vertically */
                 align-items: center; /* Center align items */
@@ -35,32 +40,32 @@
 
             #x {
                 order: -1; /* Move the image above the text */
-        width: 100%; /* Make the image take the whole width of the container */
-        margin-bottom: 2vw; /* Add space between image and text */
+                width: 100%; /* Make the image take the whole width of the container */
+                margin-bottom: 2vw; /* Add space between image and text */
             }
-        
+
+            #text-container .inline-heading {
+                display: inline-block;
+                margin: 0; /* Remove any default margin */
+            }
+
+            #text-container p {
+                font-size: 4vw; /* Adjust the font size of <p> */
+            }
+
+            #text-container h4 {
+                font-size: 6vw; /* Adjust the font size of <p> */
+            }
+
+            #text-container h5 {
+                font-size: 8vw; /* Adjust the font size of <p> */
+            }
+        }
+
         #text-container .inline-heading {
             display: inline-block;
             margin: 0; /* Remove any default margin */
-           
         }
-       
-        #text-container  p {
-            font-size: 4vw; /* Adjust the font size of <p> */
-        }
-        #text-container  h4 {
-            font-size: 6vw; /* Adjust the font size of <p> */
-        }
-        #text-container  h5 {
-            font-size: 8vw; /* Adjust the font size of <p> */
-        }
-    }
-    #text-container .inline-heading {
-            display: inline-block;
-            margin: 0; /* Remove any default margin */
-           
-        }
-        
     </style>
 </head>
 <body>
@@ -70,32 +75,31 @@
             <div id="questions"></div>
             <div id="answer"></div>
             <div id="video-and-text">
+                <!-- Initially hidden image -->
                 <img id="x" src="./images/blank.png">
                 <video id="bookVideo" width="600" height="1000" autoplay muted preload="auto" loop poster="video-poster.jpg">
                     <source src="./images/bookloop.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
                 <div id="text-container">
-                    <h4 id =t.1></h4>
-                    <h5 id = "t" ></h5>
-                </br>
-                    <h4 id ="i.1" ></h4>
-                    <h5 id = "i" ></h5>
-            </br>
-                    <h4 id ="p.1" ></h4>
-                    <h5 id = "p"></h5>
-                </br>
-                <h4 id ="yx"></h4>
-                <h5 id = "y.1" ></h5>
-        </br>
-                    <h4 id = "d.1" ></h4>
-                    <p id = "d" ></p>
+                    <h4 id="t.1"></h4>
+                    <h5 id="t"></h5>
+                    <br>
+                    <h4 id="i.1"></h4>
+                    <h5 id="i"></h5>
+                    <br>
+                    <h4 id="p.1"></h4>
+                    <h5 id="p"></h5>
+                    <br>
+                    <h4 id="yx"></h4>
+                    <h5 id="y.1"></h5>
+                    <br>
+                    <h4 id="d.1"></h4>
+                    <p id="d"></p>
                 </div>
             </div>
             
-            <div id="additional-result-block">
-            
-            </div>
+            <div id="additional-result-block"></div>
 
             <a href="index.html">Take quiz again</a>
             <div>
@@ -119,12 +123,7 @@
             </script>
         </section>
     </div>
- <!--- <audio autoplay loop>
-        <source src="./images/lofiiMusic.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
--->
- <audio id="myAudio"  muted>
+    <audio id="myAudio" muted>
         <source src="./images/click.wav" type="audio/wav">
         Your browser does not support the audio element.
     </audio>
@@ -143,11 +142,8 @@
             audio.play();
             
             // Remove the click event listener after the first click
-           
         });
     </script>
-  
     <script src="app.js"></script>
-   
 </body>
 </html>

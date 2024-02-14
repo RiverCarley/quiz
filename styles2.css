@@ -349,6 +349,7 @@ a {
 
 
 img {
+    display: none;
 
     max-width: 100%; /* Adjust to fit container */
     min-width: 30%;
@@ -400,6 +401,9 @@ h5 {
     font-style: normal;
     padding-left: 0.5vw;
     padding-right: 1.5vw;
+}
+#x {
+    display: none;
 }
 button{
     display: flex;
