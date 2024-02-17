@@ -147,8 +147,8 @@ h4 {
     font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
-    border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #000000; /* Using viewport units for border */
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -167,8 +167,8 @@ h4 {
     font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
-    border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #000000; /* Using viewport units for border */
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -186,8 +186,8 @@ h4 {
     font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
-    border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #000000; /* Using viewport units for border */
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -205,8 +205,8 @@ h4 {
     font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
-    border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #000000; /* Using viewport units for border */
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -224,8 +224,8 @@ h4 {
     font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
-    border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #000000; /* Using viewport units for border */
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -243,8 +243,8 @@ h4 {
     font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
-    border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #000000; /* Using viewport units for border */
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -262,8 +262,8 @@ h4 {
     font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
-    border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #000000; /* Using viewport units for border */
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -281,8 +281,8 @@ h4 {
     font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
-    border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #000000; /* Using viewport units for border */
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -300,8 +300,8 @@ h4 {
     font-size: 3vw; /* Using viewport units for font-size */
     text-align: center;
     overflow: hidden;
-    border-radius: 3vw; /* Using viewport units for border-radius */
-    border: 1vw solid #000000; /* Using viewport units for border */
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -407,6 +407,9 @@ h5 {
     font-style: normal;
     padding-left: 0.5vw;
     padding-right: 1.5vw;
+}
+#x {
+    display: none;
 }
 button{
     display: flex;
