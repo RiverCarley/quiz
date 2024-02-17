@@ -1,10 +1,10 @@
 .reset {
     all: unset;
 }
-#container {
-    border: 5vw solid rgb(49, 44, 44)/* Using viewport units for border */
+/*#container {
+    border: 5vw solid rgb(49, 44, 44)/* Using viewport units for border 
 }
-
+*/
 body {
     display: flex;
     justify-content: center;
