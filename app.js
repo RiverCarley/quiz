@@ -1,67 +1,40 @@
-const questionDisplay = document.querySelector('#questions')
-const answerDisplay = document.querySelector('#answer')
-var  shouldShowVideo = true;
+// Selecting elements from the DOM
+const questionDisplay = document.querySelector('#questions'); // Element to display questions
+const answerDisplay = document.querySelector('#answer'); // Element to display answers
+var shouldShowVideo = true; // Variable to control video display
 
-
+// Array of questions with their respective answers
 const questions = [
     {
        id: 0,
        text: "Which drink would you choose?",
        answers: [
-           {
-               text: "Sparkling Water",
-           
-           },
-           {
-               text: "Psilocybin Tea",
-          
-           },
-           {
-               text: "Cream Soda",
-         
-           },
-          
+           { text: "Sparkling Water" },
+           { text: "Psilocybin Tea" },
+           { text: "Cream Soda" }
        ]
     },
     {
         id: 1,
         text: "Which pet would you choose?",
         answers: [
-            {
-                text: "Sea Monkeys",
-   
-            },
-            {
-                text: "Rabbit",
- 
-            },
-            {
-                text: "Dog",
-       
-            },
-          
+            { text: "Sea Monkeys" },
+            { text: "Rabbit" },
+            { text: "Dog" }
         ]
     },
     {
         id: 2,
         text: "Which car would you choose?",
         answers: [
-            {
-                text: "1965 Shelby Cobra",
-     
-            },
-            {
-                text: "2024 Volvo S60",
-     
-            },
-            {
-                text: "Tesla Model 3",
-        
-            },
-        
+            { text: "1965 Shelby Cobra" },
+            { text: "2024 Volvo S60" },
+            { text: "Tesla Model 3" }
         ]
     }
-]
+];
+
+// Array of answer combinations and their corresponding book suggestions
 
 const answers = [
     {
@@ -542,16 +515,19 @@ const answers = [
 ]
 // need to have a default answer to compensate for lack of combination data
 
-const unansweredQuestions = []
-const chosenAnswers = []
+// Arrays to store unanswered questions and chosen answers
+const unansweredQuestions = [];
+const chosenAnswers = [];
+
+// Function to populate questions and answers on the page
 const populateQuestions = () => {
+    // Loop through each question
     questions.forEach((question, index) => {
+        // Create a title block for the question
         const titleBlock = document.createElement('div');
         titleBlock.id = question.id;
         titleBlock.classList.add('title-block');
-
-        // Add class based on index
-        titleBlock.classList.add(`title-block-${index}`);
+        titleBlock.classList.add(`title-block-${index}`); // Add class based on index
 
         const titleHeading = document.createElement('h2');
         titleHeading.textContent = question.text;
@@ -563,22 +539,19 @@ const populateQuestions = () => {
 
         questionDisplay.append(titleBlock);
 
+        // Create an answers block for the question
         const answersBlock = document.createElement('div');
         answersBlock.id = question.id + "-questions";
-        
-        // Add class based on index for answer-options
-        answersBlock.classList.add(`answer-options-${index}`);
-        
+        answersBlock.classList.add(`answer-options-${index}`); // Add class based on index
         answersBlock.classList.add('answer-options');
 
         unansweredQuestions.push(question.id);
 
-        question.answers.forEach((answer, answerIndex) => { // Added answerIndex parameter
+        // Loop through each answer for the question
+        question.answers.forEach((answer, answerIndex) => {
             const answerBlock = document.createElement('div');
             answerBlock.classList.add('answer-block');
-
-            // Add class based on index and answerIndex
-            answerBlock.classList.add(`answer-block-${index}-${answerIndex}`);
+            answerBlock.classList.add(`answer-block-${index}-${answerIndex}`); // Add class based on index and answerIndex
 
             answerBlock.addEventListener('mouseover', () => highlightBlocks(question.id, true));
             answerBlock.addEventListener('mouseout', () => highlightBlocks(question.id, false));
@@ -586,7 +559,6 @@ const populateQuestions = () => {
 
             const answerTitle = document.createElement('h3');
             answerTitle.textContent = answer.text;
-
             answerBlock.append(answerTitle);
 
             answersBlock.append(answerBlock);
@@ -596,7 +568,7 @@ const populateQuestions = () => {
     });
 };
 
-
+// Function to highlight blocks on mouseover and mouseout
 function highlightBlocks(questionId, isHighlighted) {
     const titleBlock = document.getElementById(questionId);
     titleBlock.classList.toggle('highlighted', isHighlighted);
@@ -607,68 +579,75 @@ function highlightBlocks(questionId, isHighlighted) {
     });
 }
 
+
 populateQuestions()
 
+// Function to handle click on an answer
 const handleClick = (questionId, chosenAnswer) => {
     if (unansweredQuestions.includes(questionId))
-    chosenAnswers.push(chosenAnswer)
-    const itemToRemove = unansweredQuestions.indexOf(questionId)
+        chosenAnswers.push(chosenAnswer);
 
+    const itemToRemove = unansweredQuestions.indexOf(questionId);
     if (itemToRemove > -1) {
-        unansweredQuestions.splice(itemToRemove, 1)
+        unansweredQuestions.splice(itemToRemove, 1);
     }
-    console.log(chosenAnswers)
-    console.log(unansweredQuestions)
 
-    disableQuestionBlock(questionId, chosenAnswer)
-    const lowestQuestionId = Math.min(...unansweredQuestions)
-    location.href = '#' + lowestQuestionId
+    disableQuestionBlock(questionId, chosenAnswer);
+
+    const lowestQuestionId = Math.min(...unansweredQuestions);
+    location.href = '#' + lowestQuestionId;
 
     if (!unansweredQuestions.length) {
         shouldShowVideo = false; // Update shouldShowVideo to false
-       
-
-        location.href = '#answer'
-        showAnswer()
-        updateElementsVisibility();
+        location.href = '#answer'; // Scroll to answer section
+        showAnswer(); // Display the answer
+        updateElementsVisibility(); // Update visibility of elements
     }
-  
-}
+};
+
+// Variable to control video display
 var shouldShowVideo = true;
 
+// Function to update visibility of video and image elements
 function updateElementsVisibility() {
     var videoElement = document.getElementById('bookVideo');
     var imageElement = document.getElementById('x');
 
     if (!shouldShowVideo) {
-        // If shouldShowVideo is false, hide the video element
+        // If shouldShowVideo is false, hide the video element and show the image element
         videoElement.style.display = 'none';
-        imageElement.style.display = 'block';
+        imageElement.style.display = 'block'; 
     } else {
         // If shouldShowVideo is true, hide the image element
         imageElement.style.display = 'none';
         //videoElement.style.display = 'block'; // Show the video element
-        videoElement.style.display = 'none'; // dont show the video element
-
+        videoElement.style.display = 'none'; // Don't show the video element
     }
 }
+
+// Function to display the answer
 const showAnswer = () => {
-    let result
+    let result;
+    // Find the answer matching the chosen combination of answers
     answers.forEach(answer => {
         if (answer.combination.every(option => chosenAnswers.includes(option))) {
             result = answer;
             return;
         }
-    })
+    });
 
-    const answerBlock = document.createElement('div')
-    answerBlock.classList.add('result-block')
-    const answerTitle = document.createElement('h3')
-    
-   // answerTitle.textContent = result.text
-    function ReplaceImage(y){
-        document.getElementById("x").src=y
+    // Create a block to display the answer
+    const answerBlock = document.createElement('div');
+    answerBlock.classList.add('result-block');
+    const answerTitle = document.createElement('h3');
+
+    // Set content of answer block
+    // answerTitle.textContent = result.text; // Commented out as it's unused
+    function ReplaceImage(y) {
+        document.getElementById("x").src = y;
     }
+    // Other replace functions...
+
     function ReplaceGRLink(yy){
         document.getElementById("y").href=yy
     }
@@ -709,10 +688,12 @@ const showAnswer = () => {
                             }
     
 
-    answerBlock.append(answerTitle)
-
-    answerDisplay.append(answerBlock)
-    ReplaceImage("./images/"+result.textb+".jpg");
+                            answerBlock.append(answerTitle);
+                            answerDisplay.append(answerBlock);
+                        
+                            // Replace content based on result
+                            ReplaceImage("./images/" + result.textb + ".jpg");
+                            // Other replace function calls...
     ReplaceGRLink(""+result.texty+"");
     ReplaceAZLink(""+result.textz+"");
     ReplaceText(""+result.texts+"");
@@ -729,45 +710,34 @@ const showAnswer = () => {
     const allAnswerBlocks = document.querySelectorAll('.answer-block')
     Array.from(allAnswerBlocks).forEach(answerBlock => answerBlock.replaceWith(answerBlock.cloneNode(true)))
 
-  // Trigger height change of additional result block
-    const additionalResultBlock = document.getElementById('additional-result-block');
-    additionalResultBlock.style.height = '5vw';
-    additionalResultBlock.style.overflow = 'hidden'; // Hide content when height is 0
+   // Trigger height change of additional result block
+   const additionalResultBlock = document.getElementById('additional-result-block');
+   additionalResultBlock.style.height = '5vw';
+   additionalResultBlock.style.overflow = 'hidden'; // Hide content when height is 0
+};
 
-}
-
-
+// Function to disable other options when one is chosen
 function disableQuestionBlock(questionId, chosenAnswer) {
-    const currentQuestionBlock = document.getElementById(questionId + "-questions")
+   const currentQuestionBlock = document.getElementById(questionId + "-questions");
 
-    Array.from(currentQuestionBlock.children).forEach(block => {
-        if (block.innerText !== chosenAnswer) {
-            block.style.opacity = "10%"
-          
-
-        }
-    })
+   Array.from(currentQuestionBlock.children).forEach(block => {
+       if (block.innerText !== chosenAnswer) {
+           block.style.opacity = "10%";
+       }
+   });
 }
+// Initial visibility setup for video and image elements
 var imageElement = document.getElementById('x');
 
 if (!shouldShowVideo) {
-    // If shouldShowVideo is false, hide the video element
+    // If shouldShowVideo is false, hide the video element and show the image element
     videoElement.style.display = 'none';
     imageElement.style.display = 'block'; 
-
-
 } else {
     // If shouldShowVideo is true, hide the image element
     imageElement.style.display = 'none';
 }
 
-
-
-
-
-
-
+// Update elements visibility initially
 updateElementsVisibility();
-
-
 

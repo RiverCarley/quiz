@@ -1,86 +1,94 @@
+/* Reset all CSS properties */
 .reset {
     all: unset;
 }
+
+/* Styling for the container */
 #container {
-    border: 3vw solid rgb(49, 44, 44); /* Using viewport units for border */
+    border: 3vw solid rgb(49, 44, 44); /* Border width using viewport units */
 }
 
+/* Styling for sections */
 section {
-    width: 100%; /* Set width to 90% of the viewport width */
-    max-width: 4000px; /* Set a maximum width for larger screens */
-    margin: 0 auto; /* Center the section horizontally */
-    
-   
+    width: 100%; /* 90% width of the viewport */
+    max-width: 4000px; /* Maximum width for larger screens */
+    margin: 0 auto; /* Center horizontally */
 }
 
+/* Styling for the body */
 body {
-    height: 100vw; /* Set body height to 100% of viewport height */
-    margin: 0;
-    display: flex;
-    flex-direction: column;
- 
-    background-color: rgb(30, 30, 30);
+    height: 100vw; /* Full viewport height */
+    margin: 0; /* Remove default margins */
+    display: flex; /* Flex container */
+    flex-direction: column; /* Stack children vertically */
+    background-color: rgb(30, 30, 30); /* Background color */
 }
 
+/* Styling for centered text */
 .centered-text {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center; /* Center text */
+    display: flex; /* Flex container */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
 
+/* Styling for h1 */
 h1 {
-    font-size:  14vw; /* Using viewport units for font size */
-    text-align: center;
-    width: 100%;
-    background-color: rgb(63, 63, 63);
-    color: rgb(144, 144, 144);
-    margin: 0;
-    padding: 2vw; /* Using viewport units for padding */
+    font-size:  14vw; /* Font size using viewport units */
+    text-align: center; /* Center text */
+    width: 100%; /* Full width */
+    background-color: rgb(63, 63, 63); /* Background color */
+    color: rgb(144, 144, 144); /* Text color */
+    margin: 0; /* Remove margins */
+    padding: 2vw; /* Padding using viewport units */
     box-sizing: border-box; /* Include padding and border in the width */
-    font-family: "sabbath-black", serif;
-    font-weight: 800;
-    font-style: normal;
+    font-family: "sabbath-black", serif; /* Font family */
+    font-weight: 800; /* Font weight */
+    font-style: normal; /* Font style */
 }
 
+/* Styling for h3 */
 h3 {
-    font-size: 3vw; /* Using viewport units for font size */
-    text-align: center;
-    color: rgb(144, 144, 144);
-    font-family: "vendetta", serif;
-    font-weight: 500;
-    font-style: normal;
+    font-size: 3vw; /* Font size using viewport units */
+    text-align: center; /* Center text */
+    color: rgb(144, 144, 144); /* Text color */
+    font-family: "vendetta", serif; /* Font family */
+    font-weight: 500; /* Font weight */
+    font-style: normal; /* Font style */
 }
 
+/* Styling for paragraphs */
 p {
-    max-width: 100%;
-    margin: 0 2vw; /* Using viewport units for margin */
-    font-size: 1.4vw; /* Using viewport units for font size */
-    color: rgb(144, 144, 144);
-    font-family: "vendetta", serif;
-    font-weight: 500;
-    font-style: normal;
+    max-width: 100%; /* Maximum width */
+    margin: 0 2vw; /* Margin using viewport units */
+    font-size: 1.4vw; /* Font size using viewport units */
+    color: rgb(144, 144, 144); /* Text color */
+    font-family: "vendetta", serif; /* Font family */
+    font-weight: 500; /* Font weight */
+    font-style: normal; /* Font style */
 }
 
-
+/* Styling for anchor tags */
 a {
-    width: 100%; /* Set width to 90% of the parent container */
-    max-width: 4000px; /* Set a maximum width for larger screens */
-    height: 5vw; /* Using viewport units for height */
-    font-size: 2vw; /* Using viewport units for font size */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(63, 63, 63);
-    color: rgb(144, 144, 144);
-    margin: 2vw 0; /* Using viewport units for margin */
-    text-decoration: none;
-    font-family: "vendetta", serif;
-    font-weight: 500;
-    font-style: normal;
+    width: 100%; /* 90% width of the parent container */
+    max-width: 4000px; /* Maximum width for larger screens */
+    height: 5vw; /* Height using viewport units */
+    font-size: 2vw; /* Font size using viewport units */
+    display: flex; /* Flex container */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: rgb(63, 63, 63); /* Background color */
+    color: rgb(144, 144, 144); /* Text color */
+    margin: 2vw 0; /* Margin using viewport units */
+    text-decoration: none; /* Remove underline */
+    font-family: "vendetta", serif; /* Font family */
+    font-weight: 500; /* Font weight */
+    font-style: normal; /* Font style */
 }
-button{
-    display: flex;
-    justify-content: center;
-    background-color: rgb(234, 235, 225);
+
+/* Styling for buttons */
+button {
+    display: flex; /* Flex container */
+    justify-content: center; /* Center horizontally */
+    background-color: rgb(234, 235, 225); /* Background color */
 }

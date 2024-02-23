@@ -1,86 +1,97 @@
+/* Reset all CSS properties */
 .reset {
     all: unset;
 }
+
+/* Styling for container */
 #container {
-        border: 3vw solid rgb(207, 197, 168); 
+    border: 3vw solid rgb(207, 197, 168); /* Border style */
 }
 
+/* Styling for sections */
 section {
-    width: 100%; /* Set width to 90% of the viewport width */
+    width: 100%; /* Set width to 100% */
     max-width: 4000px; /* Set a maximum width for larger screens */
     margin: 0 auto; /* Center the section horizontally */
-    
-   
 }
 
+/* Styling for body */
 body {
     height: 100vw; /* Set body height to 100% of viewport height */
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-
-    background-color: rgb(255, 253, 253);
+    margin: 0; /* Remove default margin */
+    display: flex; /* Flex container */
+    flex-direction: column; /* Arrange children in a column */
+    background-color: rgb(255, 253, 253); /* Background color */
 }
 
+/* Styling for centered text */
 .centered-text {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center; /* Center text horizontally */
+    display: flex; /* Flex container */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
 
+/* Styling for h1 */
 h1 {
     font-size: 14vw; /* Using viewport units for font size */
-    text-align: center;
-    width: 100%;
-    background-color: rgb(234, 235, 225);
-    color: rgb(0, 0, 0);
-    margin: 0;
+    text-align: center; /* Center text */
+    width: 100%; /* Set width to 100% */
+    background-color: rgb(234, 235, 225); /* Background color */
+    color: rgb(0, 0, 0); /* Text color */
+    margin: 0; /* Remove default margin */
     padding: 2vw; /* Using viewport units for padding */
     box-sizing: border-box; /* Include padding and border in the width */
-    font-family: "sabbath-black", serif;
-    font-weight: 800;
-    font-style: normal;
+    font-family: "sabbath-black", serif; /* Font family */
+    font-weight: 800; /* Font weight */
+    font-style: normal; /* Font style */
 }
 
+/* Styling for h3 */
 h3 {
     font-size: 3vw; /* Using viewport units for font size */
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-family: "vendetta", serif;
-    font-weight: 500;
-    font-style: normal;
+    text-align: center; /* Center text */
+    color: rgb(0, 0, 0); /* Text color */
+    font-family: "vendetta", serif; /* Font family */
+    font-weight: 500; /* Font weight */
+    font-style: normal; /* Font style */
 }
 
+/* Styling for paragraphs */
 p {
-    max-width: 100%;
+    max-width: 100%; /* Set maximum width to 100% */
     margin: 0 2vw; /* Using viewport units for margin */
     font-size: 1.4vw; /* Using viewport units for font size */
-    color: rgb(0, 0, 0);
-    font-family: "vendetta", serif;
-    font-weight: 500;
-    font-style: normal;
+    color: rgb(0, 0, 0); /* Text color */
+    font-family: "vendetta", serif; /* Font family */
+    font-weight: 500; /* Font weight */
+    font-style: normal; /* Font style */
 }
 
-
+/* Styling for anchor tags */
 a {
-    width: 100%; /* Set width to 90% of the parent container */
+    width: 100%; /* Set width to 100% */
     max-width: 4000px; /* Set a maximum width for larger screens */
     height: 5vw; /* Using viewport units for height */
     font-size: 2vw; /* Using viewport units for font size */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(234, 235, 225);
-    color: rgb(0, 0, 0);
+    display: flex; /* Flex container */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: rgb(234, 235, 225); /* Background color */
+    color: rgb(0, 0, 0); /* Text color */
     margin: 2vw 0; /* Using viewport units for margin */
-    text-decoration: none;
-    font-family: "vendetta", serif;
-    font-weight: 500;
-    font-style: normal;
+    text-decoration: none; /* Remove default underline */
+    font-family: "vendetta", serif; /* Font family */
+    font-weight: 500; /* Font weight */
+    font-style: normal; /* Font style */
 }
-button{
-    display: flex;
-    justify-content: center;
-    background-color: rgb(234, 235, 225);
+
+/* Styling for buttons */
+button {
+    display: flex; /* Flex container */
+    justify-content: center; /* Center horizontally */
+    background-color: rgb(234, 235, 225); /* Background color */
 }
+
+
+

@@ -1,45 +1,46 @@
+/* Reset all CSS properties */
 .reset {
     all: unset;
 }
 
+/* Styling for the body */
 body {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(235, 235, 225);
+    display: flex; /* Flex container */
+    justify-content: center; /* Center horizontally */
+    background-color: rgb(235, 235, 225); /* Background color */
 }
 
+/* Styling for sections */
 section {
     width: 100%; /* Change to a percentage for responsiveness */
     max-width: 4000px; /* Add a max-width for larger screens */
     margin: 0 auto; /* Center the section */
 }
 
+/* Styling for h1 */
 h1 {
     font-size: 10vw; /* Using viewport units for font-size */
-    text-align: center;
+    text-align: center; /* Center text */
     height: 30vw; /* Using viewport units for height */
-    background-color: rgb(245, 245, 235);
-    color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /*font-variant: small-caps;
-    letter-spacing: 1vw; /* Using viewport units for letter-spacing */
+    background-color: rgb(245, 245, 235); /* Background color */
+    color: rgb(0, 0, 0); /* Text color */
+    display: flex; /* Flex container */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
     margin: 0; /* Remove margin */
-
-
-    font-family: "sabbath-black", serif;
-font-weight: 800;
-font-style: normal;
+    font-family: "sabbath-black", serif; /* Font family */
+    font-weight: 800; /* Font weight */
+    font-style: normal; /* Font style */
 }
+
+/* Styling for h4 */
 h4 {
     font-size: 2vw; /* Using viewport units for font-size */
     margin: 0;
     padding-left: 0.5vw;
-    font-family: "vendetta", serif;
-    font-weight: 500;
-    font-style: normal;
-   
+    font-family: "vendetta", serif; /* Font family */
+    font-weight: 500; /* Font weight */
+    font-style: normal; /* Font style */
 }
 
 
