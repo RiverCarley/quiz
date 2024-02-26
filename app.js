@@ -34,7 +34,7 @@ const questions = [
     }
 ];
 
-// Array of answer combinations and their corresponding book suggestions
+// Array of answer combinations and their corresponding book suggestions and info
 
 const answers = [
     {
@@ -648,42 +648,42 @@ const showAnswer = () => {
     }
     // Other replace functions...
 
-    function ReplaceGRLink(yy){
+    function ReplaceGRLink(yy){//good reads link
         document.getElementById("y").href=yy
     }
-    function ReplaceAZLink(j){
+    function ReplaceAZLink(j){//amazon link
         document.getElementById("z").href=j
     }
-    function ReplaceText(i){
+    function ReplaceText(i){//depricated text box but required for it work for some reason
         document.getElementById("i").innerText=i
        
     }
-    function ReplacePage(p){
+    function ReplacePage(p){//page count
     document.getElementById("p").innerText=p
     }
-    function Replacedis(d){
+    function Replacedis(d){//decription
         document.getElementById("d").innerText=d
         }
-        function Replacetit(t){
+        function Replacetit(t){//title
             document.getElementById("t").innerText=t
             }
-            function ReplaceTexti(ii){
+            function ReplaceTexti(ii){//author
                 document.getElementById("i.1").innerText=ii
                
             }
-            function ReplacePagei(pp){
+            function ReplacePagei(pp){//page count static
             document.getElementById("p.1").innerText=pp
             }
-            function Replacedisi(dd){
+            function Replacedisi(dd){//discription static
                 document.getElementById("d.1").innerText=dd
                 }
-                function Replacetiti(tt){
+                function Replacetiti(tt){//title static
                     document.getElementById("t.1").innerText=tt
                     }
-                    function Replaceyear(yx){
+                    function Replaceyear(yx){//year static
                         document.getElementById("yx").innerText=yx
                         }
-                        function Replaceyeari(yyx){
+                        function Replaceyeari(yyx){//year
                             document.getElementById("y.1").innerText=yyx
                             }
     
@@ -694,6 +694,7 @@ const showAnswer = () => {
                             // Replace content based on result
                             ReplaceImage("./images/" + result.textb + ".jpg");
                             // Other replace function calls...
+                            //same as above
     ReplaceGRLink(""+result.texty+"");
     ReplaceAZLink(""+result.textz+"");
     ReplaceText(""+result.texts+"");
@@ -708,7 +709,7 @@ const showAnswer = () => {
     Replaceyeari(""+result.year1+"");
     
     const allAnswerBlocks = document.querySelectorAll('.answer-block')
-    Array.from(allAnswerBlocks).forEach(answerBlock => answerBlock.replaceWith(answerBlock.cloneNode(true)))
+    Array.from(allAnswerBlocks).forEach(answerBlock => answerBlock.replaceWith(answerBlock.cloneNode(true)))//replace answer block
 
    // Trigger height change of additional result block
    const additionalResultBlock = document.getElementById('additional-result-block');
@@ -726,7 +727,7 @@ function disableQuestionBlock(questionId, chosenAnswer) {
        }
    });
 }
-// Initial visibility setup for video and image elements
+// Initial visibility setup for video and image elements, video depricated but required for image to work
 var imageElement = document.getElementById('x');
 
 if (!shouldShowVideo) {
